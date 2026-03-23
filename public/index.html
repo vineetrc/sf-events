@@ -26,7 +26,9 @@
     body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; min-height: 100vh; }
 
     /* Header */
-    header { border-bottom: 1px solid var(--border); padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; background: var(--bg); z-index: 100; gap: 1rem; flex-wrap: wrap; }
+    header { border-bottom: 1px solid var(--border); padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+    /* On desktop, just the header needs to be sticky */
+    @media (min-width: 641px) { header { position: sticky; top: 0; background: var(--bg); z-index: 100; } }
     .logo { font-size: 1.1rem; font-weight: 700; background: linear-gradient(90deg, var(--purple), var(--blue), var(--green)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; white-space: nowrap; }
     .updated { font-size: 0.72rem; color: var(--faint); }
 
@@ -116,6 +118,9 @@
     /* Mobile-only elements (hidden on desktop) */
     .mobile-filter-btn { display: none; }
     .mobile-tabs { display: none; }
+
+    /* Sticky top wrapper for header + filters on mobile */
+    .sticky-top { position: sticky; top: 0; z-index: 100; background: var(--bg); }
 
     @media (max-width: 640px) {
       body {
@@ -290,6 +295,7 @@
 </head>
 <body>
 
+<div class="sticky-top">
 <header>
   <div class="logo">🗓 Bay Area Events</div>
   <div class="search-wrap">
@@ -344,6 +350,8 @@
   <button class="mobile-tab" id="mtab-social" onclick="setTab('social')">🎉 Social</button>
   <button class="mobile-tab" id="mtab-night" onclick="setTab('night')">🌙 Night</button>
 </div>
+
+</div><!-- /.sticky-top -->
 
 <!-- Subcategory pills (dynamic) -->
 <div id="subcatBar"></div>
