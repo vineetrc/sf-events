@@ -9,99 +9,7 @@ const https = require('https');
 const fs = require('fs');
 const { execSync } = require('child_process');
 
-// ── Claude summarizer ────────────────────────────────────────────────────────
-// Calls claude-3-5-haiku to generate 1-2 sentence summaries for event cards.
-// Batches up to 20 events per request; skips events that already have summaries.
 
-function claudePost(body) {
-  return new Promise((resolve) => {
-    const payload = JSON.stringify(body);
-    const req = https.request({
-      hostname: 'api.anthropic.com',
-      path: '/v1/messages',
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-api-key': process.env.ANTHROPIC_API_KEY || '',
-        'anthropic-version': '2023-06-01',
-        'Content-Length': Buffer.byteLength(payload),
-      },
-    }, (res) => {
-      let d = '';
-      res.on('data', c => d += c);
-      res.on('end', () => { try { resolve(JSON.parse(d)); } catch (e) { resolve({}); } });
-    });
-    req.on('error', () => resolve({}));
-    req.write(payload);
-    req.end();
-  });
-}
-
-async function summarizeBatch(events) {
-  // Build a numbered list for Claude
-  const items = events.map((e, i) =>
-    `${i + 1}. Title: ${e.title}\nDescription: ${(e.fullDescription || e.description || '').slice(0, 800)}`
-  ).join('\n\n');
-
-  const resp = await claudePost({
-    model: 'claude-3-5-haiku-20241022',
-    max_tokens: 1024,
-    messages: [{
-      role: 'user',
-      content: `You are writing brief summaries for event cards on a Bay Area events discovery app aimed at young professionals.
-
-For each event below, write exactly 1-2 engaging sentences (under 120 chars total) that capture what attendees will actually DO and WHY it's worth going. Be specific, skip filler phrases like "Join us" or "Don't miss". Return ONLY a JSON array of strings, one per event, in the same order. No extra text.
-
-Events:
-${items}`,
-    }],
-  });
-
-  try {
-    const text = resp.content?.[0]?.text || '[]';
-    // Extract JSON array from response
-    const match = text.match(/\[[\s\S]*\]/);
-    const summaries = JSON.parse(match ? match[0] : '[]');
-    return Array.isArray(summaries) ? summaries : [];
-  } catch (e) {
-    return [];
-  }
-}
-
-async function addSummaries(events, existingSummaries = {}) {
-  if (!process.env.ANTHROPIC_API_KEY) {
-    console.log('⚠️  No ANTHROPIC_API_KEY — skipping AI summaries');
-    return events;
-  }
-
-  // Only summarize events that don't already have a cached summary
-  const needsSummary = events.filter(e => !existingSummaries[e.id]);
-  if (!needsSummary.length) {
-    console.log('✨ All events already have summaries (cached)');
-    events.forEach(e => { if (existingSummaries[e.id]) e.summary = existingSummaries[e.id]; });
-    return events;
-  }
-
-  console.log(`🤖 Summarizing ${needsSummary.length} new events with Claude...`);
-  const BATCH = 20;
-  for (let i = 0; i < needsSummary.length; i += BATCH) {
-    const batch = needsSummary.slice(i, i + BATCH);
-    const summaries = await summarizeBatch(batch);
-    batch.forEach((e, j) => {
-      if (summaries[j]) existingSummaries[e.id] = summaries[j];
-    });
-    if (i + BATCH < needsSummary.length) {
-      // Small pause between batches to respect rate limits
-      await new Promise(r => setTimeout(r, 500));
-    }
-  }
-
-  // Apply summaries to all events
-  events.forEach(e => { if (existingSummaries[e.id]) e.summary = existingSummaries[e.id]; });
-  console.log(`  → ${Object.keys(existingSummaries).length} total summaries cached`);
-  return events;
-}
-// ────────────────────────────────────────────────────────────────────────────
 
 const OUTPUT = 'public/events.json';
 
@@ -244,21 +152,20 @@ async function run(){
   const [luma,meetup]=await Promise.all([scrapeLuma(),Promise.resolve(scrapeMeetup())]);
   let all=[...luma,...meetup].filter(e=>e.title?.length>4&&e.url).sort((a,b)=>{if(a.date&&b.date) return new Date(a.date)-new Date(b.date); return 0;});
 
-  // Load previously cached summaries to avoid re-summarizing
+  // Load previously cached summaries so we don't re-summarize known events
   let cachedSummaries = {};
   try {
     const existing = JSON.parse(fs.readFileSync(OUTPUT, 'utf8'));
     if (existing.summaryCache) cachedSummaries = existing.summaryCache;
-    // Also pull summaries stored on individual events (legacy)
     for (const e of (existing.all || [])) {
       if (e.id && e.summary && !cachedSummaries[e.id]) cachedSummaries[e.id] = e.summary;
     }
   } catch (e) { /* first run */ }
 
-  // Generate AI summaries for new events
-  all = await addSummaries(all, cachedSummaries);
+  // Apply cached summaries; fullDescription stays for the cron summarizer to use
+  all.forEach(e => { if (cachedSummaries[e.id]) e.summary = cachedSummaries[e.id]; });
 
-  // Strip fullDescription before saving to keep events.json lean
+  // Strip fullDescription before saving public events.json (keep it lean)
   const allClean = all.map(({ fullDescription, ...e }) => e);
 
   const result={
@@ -272,7 +179,13 @@ async function run(){
     all:allClean,
   };
   fs.writeFileSync(OUTPUT,JSON.stringify(result,null,2));
+
+  // Write a separate file listing events that still need AI summaries
+  // (fullDescription preserved here for the OpenClaw cron agent to read)
+  const needsSummary = all.filter(e => !e.summary && (e.fullDescription || e.description));
+  fs.writeFileSync('needs-summary.json', JSON.stringify(needsSummary, null, 2));
   console.log(`\n✅ ${allClean.length} events → ${OUTPUT}`);
+  console.log(`📝 ${needsSummary.length} events need AI summaries → needs-summary.json`);
 }
 
 run().catch(console.error);

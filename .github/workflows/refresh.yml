@@ -24,12 +24,11 @@ jobs:
         run: node scraper.js
         env:
           BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Commit and push updated events
         run: |
           git config user.name "SF Events Bot"
           git config user.email "bot@sfevents.app"
-          git add public/events.json
+          git add public/events.json needs-summary.json
           git diff --staged --quiet || git commit -m "chore: refresh events $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
