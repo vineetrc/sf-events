@@ -1,0 +1,10 @@
+{
+  "name": "sf-events",
+  "version": "1.0.0",
+  "description": "Bay Area Events — daily updated from Luma, Meetup, Partiful",
+  "scripts": {
+    "scrape": "node scraper.js",
+    "dev": "npx serve public"
+  },
+  "engines": { "node": ">=18" }
+}
