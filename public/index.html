@@ -386,12 +386,15 @@ function hl(t, q) {
 function dateKey(e) {
   if (!e.date) return 'z_Unknown';
   try {
-    const d = new Date(e.date), now = new Date();
-    const diff = Math.floor((d-now)/86400000);
-    if (diff<=0) return '0_Tonight';
-    if (diff===1) return '1_Tomorrow';
-    if (diff<=6) return '2_'+d.toLocaleDateString('en-US',{weekday:'long',month:'short',day:'numeric'});
-    return '3_'+d.toLocaleDateString('en-US',{month:'long',day:'numeric'});
+    const d = new Date(e.date);
+    const now = new Date();
+    const todayStr = now.toLocaleDateString('en-CA'); // YYYY-MM-DD
+    const dStr = d.toLocaleDateString('en-CA');
+    const tomorrowStr = new Date(now.getFullYear(), now.getMonth(), now.getDate()+1).toLocaleDateString('en-CA');
+    // Use YYYY-MM-DD as sort prefix so keys sort chronologically
+    if (dStr === todayStr) return dStr + '_Today';
+    if (dStr === tomorrowStr) return dStr + '_Tomorrow';
+    return dStr + '_' + d.toLocaleDateString('en-US',{weekday:'long',month:'short',day:'numeric'});
   } catch(e) { return 'z_Unknown'; }
 }
 
@@ -425,18 +428,26 @@ function render() {
     return;
   }
 
+  const now = new Date();
   const groups = {};
   for (const e of filtered) {
+    // Skip events that have already passed (more than 1 hour ago)
+    if (e.date && new Date(e.date) < new Date(now - 3600000)) continue;
     const k = dateKey(e);
     if (!groups[k]) groups[k] = [];
     groups[k].push(e);
+  }
+
+  // Sort events within each day by start time
+  for (const k of Object.keys(groups)) {
+    groups[k].sort((a,b) => new Date(a.date||0) - new Date(b.date||0));
   }
 
   const sortedKeys = Object.keys(groups).filter(k=>!k.startsWith('z_')).sort();
   let html = '';
 
   for (const key of sortedKeys) {
-    const label = key.replace(/^\d+_/,'');
+    const label = key.replace(/^\d{4}-\d{2}-\d{2}_/,'');
     const group = groups[key];
 
     if (currentTab === 'all') {
