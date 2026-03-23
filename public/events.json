@@ -1,26 +1,12 @@
 {
-  "status": "complete",
-  "lastRun": "2026-03-23T07:27:02.536Z",
-  "total": 347,
+  "lastRun": "2026-03-23T16:54:15.078Z",
+  "total": 357,
   "bySource": {
-    "luma": 39,
-    "meetup": 303,
-    "partiful": 5
+    "luma": 37,
+    "meetup": 320,
+    "partiful": 0
   },
   "tech": [
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "[San Francisco, CA] - 20260323 - Pacific Hackers @ RSAC 2026",
-      "date": "2026-03-23T17:00:00.000Z",
-      "venue": "Moscone Center",
-      "url": "https://www.meetup.com/pacifichackers/events/313109642/",
-      "description": "## Hello Hackers! We’re heading back to RSAC!\n\nWe are thrilled to announce our return to the **RSAC Villages**! If you're looking to bridge the gap between \"just attending\" and \"truly connecting,\" the",
-      "group": "Pacific Hackers Meetup",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
-      "geoArea": "sf"
-    },
     {
       "id": "mu-aHR0cHM6Ly",
       "title": "AI Dev Night with Google Databricks Workato",
@@ -59,6 +45,19 @@
       "category": "tech",
       "subcategory": "ai-ml",
       "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Art class Mon night, Oakland",
+      "date": "2026-03-24T01:00:00.000Z",
+      "venue": "4627 Shattuck",
+      "url": "https://www.meetup.com/wooden-fish-art-studio/events/313628024/",
+      "description": "The **first** session is **free.** If you're interested in starting regular long-term classes, you’re welcome to attend, take a look around, experience the class, and decide if it’s right for you.\n\n**",
+      "group": "Wooden Fish Art studio ART CLASSES",
+      "source": "meetup",
+      "category": "tech",
+      "subcategory": "ai-ml",
+      "geoArea": "east-bay"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -113,6 +112,19 @@
       "geoArea": "sf"
     },
     {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "All things software infrastructure",
+      "date": "2026-03-24T02:00:00.000Z",
+      "venue": "Noisebridge",
+      "url": "https://www.meetup.com/noisebridge/events/313628649/",
+      "description": "Bring a laptop if you can.\n\nMeeting format:\n\n* Introductions. Background & goals/interests for the meeting.\n* Lesson or Demo\n* Questions & Discussion\n* Readings & Exercises, for future meetings\n\nFind ",
+      "group": "Noisebridge Hackerspace",
+      "source": "meetup",
+      "category": "tech",
+      "subcategory": "startup",
+      "geoArea": "sf"
+    },
+    {
       "id": "luma-evt-6KkVcTH2wiNV741",
       "title": "Cyber Marketers @ RSAC: Lunch & Recharge",
       "date": "2026-03-24T19:00:00.000Z",
@@ -151,19 +163,6 @@
       "geoArea": "east-bay"
     },
     {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "🌎 Hola Amigos! Spanish Language Exchange & Practice ",
-      "date": "2026-03-24T22:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/west-coast-english-meetup-group/events/313843827/",
-      "description": "#\n\n🌍 Práctica Global de Español Hablado (Diaria y Gratuita)\n¡Deja de buscar \"clases de español cerca de mí\" y empieza a practicar ahora mismo!\nBienvenido a nuestra comunidad mundial. Somos profesores",
-      "group": "🚀 International Language Exchange | Online",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
-      "geoArea": "sf"
-    },
-    {
       "id": "luma-evt-VYVL7VCRrs5lUWN",
       "title": "World Whiskey Tour @ RSAC",
       "date": "2026-03-24T23:00:00.000Z",
@@ -173,19 +172,6 @@
       "source": "luma",
       "category": "tech",
       "subcategory": "tech-general",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "🌍 JUST GUTSY — Solo Travelers Meetup (San Francisco 4PM local time)",
-      "date": "2026-03-24T23:00:00.000Z",
-      "venue": "Vesuvio Cafe",
-      "url": "https://www.meetup.com/just-gutsy-solo-travel-meetups-buddies-cost-splits/events/313642136/",
-      "description": "**No pressure. No plans. Just new friends ✨**\nWhether you’re visiting San Francisco for the first time, just arrived, or simply love meeting curious, open-minded people, this bi-weekly **Just Gutsy** ",
-      "group": "Just Gutsy - Solo Travel Buddies, Meetups & Cost Splits",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
       "geoArea": "sf"
     },
     {
@@ -248,7 +234,7 @@
       "source": "meetup",
       "category": "tech",
       "subcategory": "startup",
-      "geoArea": "east-bay"
+      "geoArea": "sf"
     },
     {
       "id": "luma-evt-hfAm2KpfjmAVb2G",
@@ -277,32 +263,6 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Art class Tue night, Oakland",
-      "date": "2026-03-25T01:00:00.000Z",
-      "venue": "4627 Shattuck",
-      "url": "https://www.meetup.com/wooden-fish-art-studio/events/313497077/",
-      "description": "The **first** session is **free.** If you're interested in starting regular long-term classes, you’re welcome to attend, take a look around, experience the class, and decide if it’s right for you.\n\n**",
-      "group": "Wooden Fish Art studio ART CLASSES",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
-      "geoArea": "east-bay"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "​RAG in the Wild + Java Next - Amber, Valhalla, Loom, Leyden, Babylon, Panama",
-      "date": "2026-03-25T01:00:00.000Z",
-      "venue": "Workato",
-      "url": "https://www.meetup.com/eastbayjug/events/313036892/",
-      "description": "The event is a joint effort between the [San Francisco JUG](https://www.meetup.com/sfjava) and [East Bay JUG](https://www.meetup.com/eastbayjug). ⚠️ RSVP via [https://lu.ma/sfjava](https://lu.ma/sfjav",
-      "group": "East Bay  Java User Group",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
       "title": "Women in Tech, Fintech, AI, Startups, Networking Event & Elevator Pitch SF",
       "date": "2026-03-25T02:00:00.000Z",
       "venue": "Upcider",
@@ -312,7 +272,7 @@
       "source": "meetup",
       "category": "tech",
       "subcategory": "ai-ml",
-      "geoArea": "north-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -324,7 +284,7 @@
       "group": "Anthem Music Academy - Music Producers and Artists",
       "source": "meetup",
       "category": "tech",
-      "subcategory": "product-design",
+      "subcategory": "tech-general",
       "geoArea": "east-bay"
     },
     {
@@ -338,18 +298,6 @@
       "source": "meetup",
       "category": "tech",
       "subcategory": "ai-ml",
-      "geoArea": "north-bay"
-    },
-    {
-      "id": "luma-evt-XOPBlX1llBxZXUY",
-      "title": "The Agent Toolkit — OpenClaw Hack Day",
-      "date": "2026-03-25T16:30:00.000Z",
-      "venue": "525 Market St, San Francisco, CA 94105, USA",
-      "url": "https://lu.ma/openclaw-hack-day-mar25-2026",
-      "description": "",
-      "source": "luma",
-      "category": "tech",
-      "subcategory": "tech-general",
       "geoArea": "sf"
     },
     {
@@ -376,19 +324,6 @@
       "source": "meetup",
       "category": "tech",
       "subcategory": "ai-ml",
-      "geoArea": "north-bay"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "SOLD OUT Wild Iceland Adventure for Women 2026",
-      "date": "2026-03-25T22:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/travel-women/events/307945075/",
-      "description": "***[THIS TRIP IS FULL. PLEASE 2027 OPTIONS ON THE WEBSITE.](https://www.boldspirittravel.com/journeys-1/iceland-women-only-2027)***[ ](https://www.boldspirittravel.com/journeys-1/iceland-women-only-20",
-      "group": "Travel Women: Bold Adventures Near and Far (SF)",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
       "geoArea": "sf"
     },
     {
@@ -412,6 +347,19 @@
       "url": "https://www.meetup.com/ai-for-professionals-business-operators/events/313774078/",
       "description": "Most conversations about A.I. monetisation are vague, outdated, or unrealistic.\nThis session is different.\n\n[CLICK HERE TO REGISTER FOR FREE NOW](https://leighchen--clientsandconsulting.thrivecart.com",
       "group": "AI for Professionals & Business Operators",
+      "source": "meetup",
+      "category": "tech",
+      "subcategory": "ai-ml",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Meditation for Beginners - Isha Kriya (Free Online Webinar)",
+      "date": "2026-03-26T01:00:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/isha-yoga-inn-engineering-san-fransisco-yoga-meditation/events/313842042/",
+      "description": "**To RSVP, please [click here](https://www.innerengineering.com/webinar/meditation-for-beginners).**\nOnce you click on this link, please provide your email address, and you will receive an email with ",
+      "group": "Inner Engineering SF (Isha Yoga & Meditation Classes)",
       "source": "meetup",
       "category": "tech",
       "subcategory": "ai-ml",
@@ -480,19 +428,6 @@
       "source": "meetup",
       "category": "tech",
       "subcategory": "ai-ml",
-      "geoArea": "east-bay"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "Brazilian Samba Class",
-      "date": "2026-03-26T02:30:00.000Z",
-      "venue": "Hidden City Ballroom",
-      "url": "https://www.meetup.com/come-dance-marin/events/313662182/",
-      "description": "Energetic, Friendly and Fun- Mary Dollar’s samba dance classes are authentic and accessible to all levels, with an “easy to follow” format for all to enjoy!\n\nGet in the groove, sweat and swing to a va",
-      "group": "COME DANCE MARIN + BAY AREA",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "tech-general",
       "geoArea": "east-bay"
     },
     {
@@ -568,7 +503,7 @@
       "description": "",
       "source": "luma",
       "category": "tech",
-      "subcategory": "networking",
+      "subcategory": "tech-general",
       "geoArea": "sf"
     },
     {
@@ -672,32 +607,6 @@
       "source": "meetup",
       "category": "tech",
       "subcategory": "ai-ml",
-      "geoArea": "east-bay"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "Creative Women Speed-Friending (Oakland)",
-      "date": "2026-03-27T01:30:00.000Z",
-      "venue": "Mad Oak",
-      "url": "https://www.meetup.com/gist-irl/events/313643504/",
-      "description": "[🎟️ ](https://app.gistirl.com/event-details/ux5zjcmx7NG7qxvoRgC3)**[Join & Check-in](https://app.gistirl.com/event-details/ux5zjcmx7NG7qxvoRgC3)**\n\nCalling all creative women - artists, founders, des",
-      "group": "Gist IRL",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
-      "geoArea": "east-bay"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "Noche de Español: Cultura, Juegos Y Buena Vibra. Marzo 26",
-      "date": "2026-03-27T01:30:00.000Z",
-      "venue": "Temescal Brewing",
-      "url": "https://www.meetup.com/meet-up-en-espanol/events/313762541/",
-      "description": "Bienvenidos a Noche de Español! Un meet-up relajado y divertido donde la cultura, los juegos y la conversación en español se combinan para crear una experiencia única. Aquí no importa tu nivel de espa",
-      "group": "Meet Up En Español",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "tech-general",
       "geoArea": "east-bay"
     },
     {
@@ -830,19 +739,6 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Meditation for Beginners - Isha Kriya (Free Online Webinar)",
-      "date": "2026-03-28T20:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/isha-yoga-inn-engineering-san-fransisco-yoga-meditation/events/313842268/",
-      "description": "**To RSVP, please [click here](https://www.innerengineering.com/webinar/meditation-for-beginners).**\nOnce you click on this link, please provide your email address, and you will receive an email with ",
-      "group": "Inner Engineering SF (Isha Yoga & Meditation Classes)",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
       "title": "Chocolate Panel: Spice & Sweet, The Rise of Indian Chocolate Makers",
       "date": "2026-03-28T20:30:00.000Z",
       "venue": "San Francisco County Fair Building",
@@ -851,7 +747,7 @@
       "group": "The San Francisco Bay Area CHOCOLATE Meetup",
       "source": "meetup",
       "category": "tech",
-      "subcategory": "product-design",
+      "subcategory": "tech-general",
       "geoArea": "sf"
     },
     {
@@ -864,21 +760,21 @@
       "group": "Incredible Food + Wine Experiences for Television",
       "source": "meetup",
       "category": "tech",
-      "subcategory": "product-design",
+      "subcategory": "tech-general",
       "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Chocolate Panel: Spice & Sweet, The Rise of Indian Chocolate Makers",
-      "date": "2026-03-28T20:30:00.000Z",
-      "venue": "San Francisco County Fair Building",
-      "url": "https://www.meetup.com/sfba-lgbtq-singles-community/events/313730234/",
-      "description": "New Panel at the 20th Anniversary SAN FRANCISCO INTERNATIONAL CHOCOLATE SALON & FESTIVAL:\n\n***Spice & Sweet, The Rise of Indian Chocolate Makers***\n\nA moderated panel of Bay Area Indian-heritage choco",
-      "group": "SFBA LGBTQ Singles Community",
+      "title": "Brazilian Samba Class",
+      "date": "2026-03-29T00:30:00.000Z",
+      "venue": "Hidden City Ballroom",
+      "url": "https://www.meetup.com/come-dance-marin/events/313705244/",
+      "description": "Energetic, Friendly and Fun- Mary Dollar’s samba dance classes are authentic and accessible to all levels, with an “easy to follow” format for all to enjoy!\n\nGet in the groove, sweat and swing to a va",
+      "group": "COME DANCE MARIN + BAY AREA",
       "source": "meetup",
       "category": "tech",
-      "subcategory": "product-design",
-      "geoArea": "sf"
+      "subcategory": "tech-general",
+      "geoArea": "east-bay"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -895,16 +791,16 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Wittgenstein, Socrates, & AI",
-      "date": "2026-03-29T02:00:00.000Z",
-      "venue": "The Commons",
-      "url": "https://www.meetup.com/renegadephilosophers/events/313788770/",
-      "description": "RENEGADES RETURNS.\n\nFolks, I'm happy to return with a fruitful discussion about, among other things, chairs. Specifically we will be discussing the relationship between Socratic inquiry, Wittgenstein'",
-      "group": "Renegade Philosophers",
+      "title": "Secret Wine Bar",
+      "date": "2026-03-29T01:30:00.000Z",
+      "venue": "San Francisco Wine School",
+      "url": "https://www.meetup.com/palo-alto-blind-wine-society/events/313784684/",
+      "description": "🍷 Secret Wine Bar \\| Blind Wine Society Night\n\nPalo Alto Blind Wine Society — Monthly Tradition\n\nSome of the best wine experiences aren’t advertised.\nYou just have to know where to go.\n\nOnce a month,",
+      "group": "Palo Alto Blind Wine Society",
       "source": "meetup",
       "category": "tech",
       "subcategory": "ai-ml",
-      "geoArea": "sf"
+      "geoArea": "peninsula"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -1020,19 +916,6 @@
       "source": "meetup",
       "category": "tech",
       "subcategory": "ai-ml",
-      "geoArea": "south-bay"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "Agentic Search with Tavily - AI Build & Learn #2",
-      "date": "2026-04-03T19:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/ai-builders-and-learners-sf/events/313466524/",
-      "description": "Welcome to **AI Build & Learn** a weekly AI engineering stream where we pick a new topic and learn by building together.\n\n​This episode covers **Agentic Search with Tavily**. Tavily is a search API bu",
-      "group": "AI Builders and Learners SF",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
       "geoArea": "sf"
     },
     {
@@ -1043,6 +926,32 @@
       "url": "https://www.meetup.com/bay-area-artificial-war-room/events/313148533/",
       "description": "Models, agent, systems, ethics, the law, business, art and impact we discuss it all. With the DeepSeek hoopla fading, what of Reasoning models?\n\nInspired by the Berkeley AI War Room, we invite you to ",
       "group": "Bay Area AI War Room",
+      "source": "meetup",
+      "category": "tech",
+      "subcategory": "ai-ml",
+      "geoArea": "east-bay"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Bike ride in Lafayette",
+      "date": "2026-04-04T17:00:00.000Z",
+      "venue": "Lafayette, CA",
+      "url": "https://www.meetup.com/easy-rider-bicycling-group/events/313823950/",
+      "description": "Join us for a refreshing, easy-to-moderate 20-mile ride on Saturday, April 4, at 10:00 AM through beautiful Lafayette and Moraga. We’ll start at the Lafayette Community Center (500 St. Mary’s Rd), hop",
+      "group": "Easy Rider Bicycling Group",
+      "source": "meetup",
+      "category": "tech",
+      "subcategory": "ai-ml",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Senior Salon – Artists, Musicians, Writers, and Entrepreneurs",
+      "date": "2026-04-04T19:00:00.000Z",
+      "venue": "Northbrae Community Church",
+      "url": "https://www.meetup.com/senior-salon-artist-writer-musician-entrepreneur/events/313789653/",
+      "description": "**NEW FORMAT:**\n**Meet a group of a dozen or more of your fellow talented seniors.** Each presenter will have five minutes or so, to share their art, music, or entrepreneurial journey with the group -",
+      "group": "Senior Salon: Artists/Writers/Musicians/Entrepreneurs",
       "source": "meetup",
       "category": "tech",
       "subcategory": "ai-ml",
@@ -1063,6 +972,19 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
+      "title": " Spring Gal Pals: Creative Speed-Friending (Oakland)",
+      "date": "2026-04-04T21:00:00.000Z",
+      "venue": "Mad Oak",
+      "url": "https://www.meetup.com/gist-irl/events/313643504/",
+      "description": "[🎟️ ](https://app.gistirl.com/event-details/ux5zjcmx7NG7qxvoRgC3)**[Join & Check-in](https://app.gistirl.com/event-details/ux5zjcmx7NG7qxvoRgC3)**\n\nCalling all creative women - hobbyists, artists, fo",
+      "group": "Gist IRL",
+      "source": "meetup",
+      "category": "tech",
+      "subcategory": "ai-ml",
+      "geoArea": "east-bay"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
       "title": "Music and Poetry of South Asian Mystics: an exploration of Sufi Qawwali",
       "date": "2026-04-04T23:30:00.000Z",
       "venue": "Lotusland Yoga SF",
@@ -1072,7 +994,7 @@
       "source": "meetup",
       "category": "tech",
       "subcategory": "ai-ml",
-      "geoArea": "east-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -1140,32 +1062,6 @@
       "geoArea": "sf"
     },
     {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "Travel Photography: Capturing the Moment with Rachel Watts",
-      "date": "2026-04-07T17:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/san-jose-bold-travel-women-explore-more/events/313749568/",
-      "description": "Ready to take better photos on your next trip?\n\nYour teacher, Rachel Watts, is a professional photographer and has taken photos for us (Bold Spirit Travel) on many of our adventures.\n\nShe's the best!\n",
-      "group": "San Jose Bold Travel Women Explore More",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "OpenOakland - Civic Tech for the Community ",
-      "date": "2026-04-08T01:30:00.000Z",
-      "venue": "City Hall, Hearing Room 3",
-      "url": "https://www.meetup.com/openoakland/events/313752100/",
-      "description": "Join us for the monthly OpenOakland meetup. This event will bring together professionals, enthusiasts, and experts passionate about utilizing data to drive positive change in Oakland.\n\n**Pizza will be",
-      "group": "OpenOakland",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
-      "geoArea": "east-bay"
-    },
-    {
       "id": "luma-evt-opY5YfHJhDgPVpF",
       "title": "Junto Founder Dinner (Series A+) [SF]",
       "date": "2026-04-09T01:00:00.000Z",
@@ -1175,19 +1071,6 @@
       "source": "luma",
       "category": "tech",
       "subcategory": "startup",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "Every Second Wednesday, IN PERSON, Esperanto Conversation in San Francisco",
-      "date": "2026-04-09T02:00:00.000Z",
-      "venue": "1428 HAIGHT Patio Cafe & Crepery",
-      "url": "https://www.meetup.com/esperanto-san-francisco/events/313862736/",
-      "description": "DON'T FORGET!!!\n\nOn the **second Wednesday of the month**, the San Francisco conversation group meets **IN PERSON** at the **[Patio Café & Creperie](https://1428haight.com/)** (1428 Haight Strato, SF,",
-      "group": "Esperanto San Francisco (SFERO)",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
       "geoArea": "sf"
     },
     {
@@ -1223,19 +1106,6 @@
       "url": "https://www.meetup.com/urban-and-bay-hikers/events/313604914/",
       "description": "Near the Presidio Golden Gate National Recreation Area, we are going up several sets of historic and scenic staircases. along the edge of the Presidio past the lovely and majestic palace of fine arts,",
       "group": "Urban & Bay Hikers (Hiking)",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
-      "geoArea": "north-bay"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "Pack Like a Pro: Travel Tips for Women 2026",
-      "date": "2026-04-16T23:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/travel-women/events/313626507/",
-      "description": "***This is a one-hour online class hosted by [Bold Spirit Travel LLC](https://www.boldspirittravel.com/newsletter).***\n\n*\\*Get a ticket to this class here: [Eventbrite](https://www.eventbrite.com/e/19",
-      "group": "Travel Women: Bold Adventures Near and Far (SF)",
       "source": "meetup",
       "category": "tech",
       "subcategory": "ai-ml",
@@ -1291,6 +1161,19 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
+      "title": "🍷 Secret Wine Bar | Blind Wine Society Night",
+      "date": "2026-04-26T01:30:00.000Z",
+      "venue": "San Francisco Wine School",
+      "url": "https://www.meetup.com/palo-alto-blind-wine-society/events/313820749/",
+      "description": "🍷 Secret Wine Bar \\| Blind Wine Society Night\n\nPalo Alto Blind Wine Society — Monthly Tradition\n\nSome of the best wine experiences aren’t advertised.\nYou just have to know where to go.\n\nOnce a month,",
+      "group": "Palo Alto Blind Wine Society",
+      "source": "meetup",
+      "category": "tech",
+      "subcategory": "ai-ml",
+      "geoArea": "peninsula"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
       "title": "Angel Island Hike  (Leave on Tiburon Ferry at 10:00)",
       "date": "2026-04-26T16:27:00.000Z",
       "venue": "Caffē Acri",
@@ -1301,6 +1184,19 @@
       "category": "tech",
       "subcategory": "ai-ml",
       "geoArea": "north-bay"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Indoor Bouldering - Get Your Climb On!",
+      "date": "2026-04-26T18:00:00.000Z",
+      "venue": "Benchmark Climbing",
+      "url": "https://www.meetup.com/have-fun-make-friends-sf/events/313613952/",
+      "description": "Join us for a fun and friendly bouldering session! Whether you've been wanting to try bouldering for a while or are casually working on your next project, come hang out and meet fellow climbers.\n\nDay ",
+      "group": "Have Fun Make Friends SF",
+      "source": "meetup",
+      "category": "tech",
+      "subcategory": "tech-general",
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -1332,54 +1228,15 @@
   "social": [
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Tilden Regional Park, Golf Course Dr. staging, 7.4 miles, dogs off leash",
-      "date": "2026-03-23T15:30:00.000Z",
+      "title": "Cross-train: Strength training (virtual, lunch time)",
+      "date": "2026-03-23T19:00:00.000Z",
       "venue": "Bay Area",
-      "url": "https://www.meetup.com/meetup-group-gfpfhgkr/events/313888119/",
+      "url": "https://www.meetup.com/trail-running-group/events/313622782/",
       "description": "",
-      "group": "East Bay Ramblers",
+      "group": "🌲TRAIL RUNNING GROUP (w/ race/x-training, ☕️ socials)",
       "source": "meetup",
       "category": "social",
-      "subcategory": "outdoors",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "Campus to Tilden Wildflower Hike Mon Mar 23",
-      "date": "2026-03-23T16:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/meetup-group-ufqkyalb/events/313808208/",
-      "description": "",
-      "group": "Adventure Hikes",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "hiking",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "A day hike at Tilden Regional Park",
-      "date": "2026-03-23T16:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/sierra-foothill-hikers/events/313844277/",
-      "description": "",
-      "group": "Foothill Hikers",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "hiking",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "🌐 Global English Chat & Connect",
-      "date": "2026-03-23T20:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/west-coast-english-meetup-group/events/313622756/",
-      "description": "## Welcome to our Daily English Meetup!\n\n* **NB! Don't see the EVENT LINK?** Go to [speakduo.com](http://speakduo.com/) to see the full schedule and you can also join the event via a link there (It's ",
-      "group": "🚀 International Language Exchange | Online",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "arts",
+      "subcategory": "social-general",
       "geoArea": "sf"
     },
     {
@@ -1391,33 +1248,7 @@
       "description": "",
       "source": "luma",
       "category": "social",
-      "subcategory": "volunteering",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "🌍 English Practice: Meet & Learn (Daily & Free)",
-      "date": "2026-03-23T23:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/west-coast-english-meetup-group/events/313624983/",
-      "description": "## Welcome to our Daily English Meetup!\n\n* **NB! Don't see the EVENT LINK?** Go to [speakduo.com](http://speakduo.com/) to see the full schedule and you can also join the event via a link there (It's ",
-      "group": "🚀 International Language Exchange | Online",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "arts",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "Photography 101 For Absolute Beginners! Take Photos That You're Proud To Show",
-      "date": "2026-03-23T23:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/san-jose-photography-community/events/313776318/",
-      "description": "This meetup is available for our photo community's monthly members\n**➡️MORE INFO Become A Member → [https://www.shutterobi.com/join](https://www.shutterobi.com/join)**\nEnjoy unlimited community meetup",
-      "group": "San Jose Photography Community",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "arts",
+      "subcategory": "social-general",
       "geoArea": "sf"
     },
     {
@@ -1434,7 +1265,7 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "[Dinner] House of Prime Rib - Table for Ten",
+      "title": "[Dinner] House of Prime Rib - Table for Twelve",
       "date": "2026-03-24T00:00:00.000Z",
       "venue": "House of Prime Rib",
       "url": "https://www.meetup.com/sffoodies/events/312433289/",
@@ -1482,6 +1313,32 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "games",
+      "geoArea": "peninsula"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Mission 5k fun run! | Little Star Pizza",
+      "date": "2026-03-24T01:30:00.000Z",
+      "venue": "Little Star Pizza",
+      "url": "https://www.meetup.com/missionfunruns/events/313067535/",
+      "description": "we’re going to little star pizza on valencia!!! route tba but expect it to be mostly flat 🤠\n\nWe host a weekly 5km run every Monday evening, starting and ending at a \\*bar in or near the Mission Distr",
+      "group": "SF Mission Fun Runs",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "fitness",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Country Line and Swing Dancing (Improver Dancers)",
+      "date": "2026-03-24T01:30:00.000Z",
+      "venue": "American Legion San Bruno",
+      "url": "https://www.meetup.com/country-line-and-swing-social-san-bruno/events/313839706/",
+      "description": "Come out Monday March 23rd to the American Legion in San Bruno for a line dancing and country swing social!\nAlthough all are welcome, *this is aimed at the more seasoned line and swing dancer.*\n\n**Due",
+      "group": "Country Line and Swing Social! (Improver Dancers) San Bruno",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "hiking",
       "geoArea": "peninsula"
     },
     {
@@ -1564,6 +1421,19 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
+      "title": "🎬  Project Hail Mary -- Metreon (& Late Lunch before)",
+      "date": "2026-03-24T21:00:00.000Z",
+      "venue": "AMC Metreon 16",
+      "url": "https://www.meetup.com/sf-fun-and-active-seniors-over-50/events/313575685/",
+      "description": "🎬 **Project Hail Mary -- Metreon (& Late Lunch before)**\n\n**▪︎** The early buzz is overwhelmingly positive! \"Ryan Gosling Is a shining star in Christopher Miller and Phil Lord’s must-see space odysse",
+      "group": "SF Fun and Active Seniors Over 50 -- music, art, film & more",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "hiking",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
       "title": "Introduction To Portrait Photography For Beginners: From First Shoot to Delivery",
       "date": "2026-03-24T23:00:00.000Z",
       "venue": "Bay Area",
@@ -1586,6 +1456,32 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "arts",
+      "geoArea": "east-bay"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Queer Crush @ Great Western",
+      "date": "2026-03-25T01:00:00.000Z",
+      "venue": "Great Western Power Company",
+      "url": "https://www.meetup.com/queer-crush-norcal/events/313564756/",
+      "description": "🎟️ free for [@touchstoneclimbing](https://www.instagram.com/touchstoneclimbing/) gym members!\n\n🎫 $20 day pass for non-members (thats a 33% discount on the regular price!)\n\n🧗🏻‍♂️rentals are FREE fo",
+      "group": "Queer Crush Climbing (NorCal)",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "fitness",
+      "geoArea": "east-bay"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Unwind With Us at Rosenblum Cellars 🍷",
+      "date": "2026-03-25T01:00:00.000Z",
+      "venue": "Rosenblum Cellars Jack London Square",
+      "url": "https://www.meetup.com/unwind-bay-area-women-entrepreneurs/events/313628466/",
+      "description": "**Our Unwind gatherings usually bring together 20–30 women entrepreneurs.**\n\n**So, if you’ve been wanting to meet more women entrepreneurs in the Bay Area, come join us for a relaxed evening at Rosenb",
+      "group": "Unwind - Bay Area Women Entrepreneurs",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "happy-hour",
       "geoArea": "east-bay"
     },
     {
@@ -1676,33 +1572,45 @@
       "group": "BayArea Breathwork, Conscious Eating and Living  Circle",
       "source": "meetup",
       "category": "social",
-      "subcategory": "yoga",
+      "subcategory": "social-general",
       "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Ancient Greece in Italy – Magna Graecia Virtual Tour",
-      "date": "2026-03-25T08:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/italy-virtual-tours-3/events/313729087/",
-      "description": "**REGISTRATION REQUIRED!** **[Click here to register](https://us06web.zoom.us/webinar/register/2217723913957/WN_naHxdc1IRhOp3-NlQ2lBgA)**\n\nWhat if you could **experience Ancient Greece… without leavin",
-      "group": "Italy Virtual Tours: Art, Culture and Beauty - San Francisco",
+      "title": "RISE + RUN W/ MORGAN",
+      "date": "2026-03-25T14:00:00.000Z",
+      "venue": "WeWork Office Space & Coworking",
+      "url": "https://www.meetup.com/san-francisco-fitness-meetup-group/events/313650535/",
+      "description": "RISE + RUN is our signature running club; a method designed for both seasoned runners and beginners to train for improved running form, endurance and strength. Running as a group creates community and",
+      "group": "Rise By We San Francisco Running Group",
       "source": "meetup",
       "category": "social",
-      "subcategory": "arts",
+      "subcategory": "fitness",
       "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "🚀 Speak English Confidently | Live",
+      "title": "Marcia Donahue's Exotic Gardens & More Quirky Berkeley- Please Read All!",
       "date": "2026-03-25T16:00:00.000Z",
       "venue": "Bay Area",
-      "url": "https://www.meetup.com/west-coast-english-meetup-group/events/313651084/",
-      "description": "## Welcome to our Daily English Meetup!\n\n* **NB! Don't see the EVENT LINK?** Go to [speakduo.com](http://speakduo.com/) to see the full schedule and you can also join the event via a link there (It's ",
-      "group": "🚀 International Language Exchange | Online",
+      "url": "https://www.meetup.com/women-walking-berkeleys-beautiful-neighborhoods/events/313807280/",
+      "description": "",
+      "group": "Member-Driven Women Walking Berkeley & Far More!",
       "source": "meetup",
       "category": "social",
-      "subcategory": "arts",
+      "subcategory": "social-general",
+      "geoArea": "sf"
+    },
+    {
+      "id": "luma-evt-XOPBlX1llBxZXUY",
+      "title": "The Agent Toolkit — OpenClaw Hack Day",
+      "date": "2026-03-25T16:30:00.000Z",
+      "venue": "525 Market St, San Francisco, CA 94105, USA",
+      "url": "https://lu.ma/openclaw-hack-day-mar25-2026",
+      "description": "",
+      "source": "luma",
+      "category": "social",
+      "subcategory": "social-general",
       "geoArea": "sf"
     },
     {
@@ -1729,19 +1637,6 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "music",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "Decks 'n' Dabs with ALEXXII @ Barbary Coast SF",
-      "date": "2026-03-25T23:00:00.000Z",
-      "venue": "Barbary Coast",
-      "url": "https://www.meetup.com/barbary-coast/events/313673287/",
-      "description": "Turn it up and dab it out. Barbary Coast is bringing the bass, the beats, and the deals for a night where the music hits just as hard as the concentrates.\n\nWe're proud to feature **Alexxii** — one of ",
-      "group": "San Francisco Cannabis Club @ Barbary Coast SF",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "fitness",
       "geoArea": "sf"
     },
     {
@@ -1779,7 +1674,7 @@
       "group": "I Wanna Do It But Not Alone",
       "source": "meetup",
       "category": "social",
-      "subcategory": "book-club",
+      "subcategory": "social-general",
       "geoArea": "sf"
     },
     {
@@ -1790,19 +1685,6 @@
       "url": "https://www.meetup.com/awkwardblacktribe/events/313535629/",
       "description": "",
       "group": "Awkward Black Tribe",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "arts",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "Art & Craft Nights in the Presidio",
-      "date": "2026-03-26T01:00:00.000Z",
-      "venue": "Stories Make Us",
-      "url": "https://www.meetup.com/stories-make-us-art-craft-storytelling-workshops/events/313855572/",
-      "description": "**Come on in! Learn about us and our workshops at www.storiesmakeus.org. We look forward to seeing you!**",
-      "group": "Stories Make Us Art & Craft & Storytelling Workshops",
       "source": "meetup",
       "category": "social",
       "subcategory": "arts",
@@ -1831,7 +1713,7 @@
       "group": "COME DANCE MARIN + BAY AREA",
       "source": "meetup",
       "category": "social",
-      "subcategory": "dancing",
+      "subcategory": "arts",
       "geoArea": "east-bay"
     },
     {
@@ -1844,6 +1726,32 @@
       "source": "luma",
       "category": "social",
       "subcategory": "music",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Queer Crush @ Movement San Francisco",
+      "date": "2026-03-26T02:00:00.000Z",
+      "venue": "Movement San Francisco",
+      "url": "https://www.meetup.com/queer-crush-norcal/events/313564759/",
+      "description": "🎟️ free for Movement gym members!\n\n🎫 $16 discounted day pass for non-members (half off regular ay pass!)\n\n🧗🏻‍♂️rentals are $5-8 for QC attendees\n\n🎉this is an all levels meet up, so no matter your",
+      "group": "Queer Crush Climbing (NorCal)",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "fitness",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Run and Chug March 25 - Lost Marbles Brewery",
+      "date": "2026-03-26T02:00:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/sf-fun-run/events/313747742/",
+      "description": "",
+      "group": "SF Fun Run",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "fitness",
       "geoArea": "sf"
     },
     {
@@ -1869,21 +1777,7 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "networking",
-      "geoArea": "north-bay"
-    },
-    {
-      "id": "partiful-DLFWAdGOOajODoxsKV8o",
-      "title": "Sip & Shop: Women’s History Month",
-      "date": "2026-03-26T23:00:00.000Z",
-      "venue": "Cheeky Bits Sweets · San Francisco, CA",
-      "address": "3 Embarcadero Center, San Francisco, CA 94111",
-      "url": "https://partiful.com/e/DLFWAdGOOajODoxsKV8o",
-      "description": "You’re invited to a Sip & Shop at Cheeky Bits Sweets in honor of Women’s History Month! As a women-owned business, we love to uplift other women-owned brands and are excited to highlight the ones we c",
-      "source": "partiful",
-      "category": "social",
-      "subcategory": "social-general",
-      "geoArea": "sf",
-      "geoVerified": true
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -1976,18 +1870,6 @@
       "geoArea": "sf"
     },
     {
-      "id": "luma-evt-BZiGgEgyap0XFE4",
-      "title": "Lenny’s Newsletter Meetup in Milpitas (with free drinks courtesy of Clerk)",
-      "date": "2026-03-27T01:00:00.000Z",
-      "venue": "Big Al's, 27 Ranch Dr, Milpitas, CA 95035, USA",
-      "url": "https://lu.ma/3h47gip0",
-      "description": "",
-      "source": "luma",
-      "category": "social",
-      "subcategory": "happy-hour",
-      "geoArea": "south-bay"
-    },
-    {
       "id": "mu-aHR0cHM6Ly",
       "title": "Board Game Playtesting at Dogpatch Games (San Francisco)",
       "date": "2026-03-27T01:00:00.000Z",
@@ -1997,7 +1879,7 @@
       "group": "Golden Gate Gamemakers",
       "source": "meetup",
       "category": "social",
-      "subcategory": "food-drink",
+      "subcategory": "happy-hour",
       "geoArea": "sf"
     },
     {
@@ -2023,7 +1905,33 @@
       "group": "SF Intellectuals Discussion Group",
       "source": "meetup",
       "category": "social",
-      "subcategory": "happy-hour",
+      "subcategory": "social-general",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Kingfish Pub & Cafe and Piedmont Ave Run",
+      "date": "2026-03-27T01:30:00.000Z",
+      "venue": "Kingfish Pub & Cafe",
+      "url": "https://www.meetup.com/510-run-to-beers/events/313562240/",
+      "description": "Let's go on a short but challenging run from Kingfish to the gate of Mountain View Cemetery and back.\n\nWe'll gather at 6:30pm but won't start running until 6:40pm. We don't keep time of the runners. A",
+      "group": "510 Run to Beers",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "fitness",
+      "geoArea": "east-bay"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Queer Crush @ Dogpatch Boulders",
+      "date": "2026-03-27T01:30:00.000Z",
+      "venue": "Dogpatch Boulders",
+      "url": "https://www.meetup.com/queer-crush-norcal/events/313564766/",
+      "description": "🎟️ free for [@touchstoneclimbing](https://www.instagram.com/touchstoneclimbing/) gym members!\n\n🎫 $20 day pass for non-members (thats a 33% discount on the regular price!)\n\n🧗🏻‍♂️rentals are FREE fo",
+      "group": "Queer Crush Climbing (NorCal)",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "fitness",
       "geoArea": "sf"
     },
     {
@@ -2049,7 +1957,7 @@
       "group": "San Francisco Squash",
       "source": "meetup",
       "category": "social",
-      "subcategory": "food-drink",
+      "subcategory": "happy-hour",
       "geoArea": "sf"
     },
     {
@@ -2104,32 +2012,6 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Evening Japanese Language Exchange",
-      "date": "2026-03-27T02:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/jaexchangepaloalto/events/310981411/",
-      "description": "NOW ON ZOOM! Come join us for alternating Japanese and English conversation (change languages every 30 minutes). Topics will change freely, though there will be conversation starters to keep the talki",
-      "group": "Japanese Language Exchange Online (prev. Palo Alto)",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "arts",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "Mark Salzman / Iron and Silk 101-108 / Learn English 學英文",
-      "date": "2026-03-27T02:00:00.000Z",
-      "venue": "Louis Sutter Playground",
-      "url": "https://www.meetup.com/sf-opera-attendee/events/313677480/",
-      "description": "**2023 04 08**\n\n**___________ Do you want to learn Traditional Chinese / Mandarin?**\n\n**V. 2023 04 08**\n\n**I was born and raised in Taiwan,**\n\n**I operate Traditional Chinese fine,**\n\n**since I had a ",
-      "group": "TextQuilting i libri in Italiano, Francese e Tedesco!",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "hiking",
-      "geoArea": "east-bay"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
       "title": "Somatic Breathwork : Creating Health, Vitality, and Longevity.",
       "date": "2026-03-27T02:15:00.000Z",
       "venue": "Yoga Society Of San Francisco",
@@ -2138,7 +2020,7 @@
       "group": "BayArea Breathwork, Conscious Eating and Living  Circle",
       "source": "meetup",
       "category": "social",
-      "subcategory": "yoga",
+      "subcategory": "comedy",
       "geoArea": "sf"
     },
     {
@@ -2156,15 +2038,15 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "San Polo Venice Virtual Walking Tour – the Real Venice",
-      "date": "2026-03-27T16:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/italy-virtual-tours-3/events/313743418/",
-      "description": "**REGISTRATION REQUIRED!** **[Click here to register](https://us06web.zoom.us/webinar/register/1917729085619/WN_Q25_JsOmRxm5b7jqFD9Gew)**\n\nStep away from the crowds and discover the **most authentic s",
-      "group": "Italy Virtual Tours: Art, Culture and Beauty - San Francisco",
+      "title": "Friday morning pastry run | Kantine",
+      "date": "2026-03-27T14:30:00.000Z",
+      "venue": "Kantine",
+      "url": "https://www.meetup.com/missionfunruns/events/312930583/",
+      "description": "Join us at Kantine, an amazing scandanavian bakery for a morning run and some morning bun\n\n[Kantine route](https://onthegomap.com/s/ovfq5g3c)\n\nFor now the default meeting location and route will be Cr",
+      "group": "SF Mission Fun Runs",
       "source": "meetup",
       "category": "social",
-      "subcategory": "hiking",
+      "subcategory": "fitness",
       "geoArea": "sf"
     },
     {
@@ -2268,7 +2150,7 @@
       "group": "Gist IRL",
       "source": "meetup",
       "category": "social",
-      "subcategory": "dating",
+      "subcategory": "arts",
       "geoArea": "sf"
     },
     {
@@ -2307,21 +2189,8 @@
       "group": "COME DANCE MARIN + BAY AREA",
       "source": "meetup",
       "category": "social",
-      "subcategory": "dancing",
+      "subcategory": "arts",
       "geoArea": "east-bay"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "La Hora Feliz, Viernes en el Muddy Waters Cafe! (NEW location!)",
-      "date": "2026-03-28T01:00:00.000Z",
-      "venue": "Muddy Waters Coffee House",
-      "url": "https://www.meetup.com/spanish-language-meetup/events/313689424/",
-      "description": "**La Hora Feliz at Muddy Waters Cafe! New location / *Every Friday!***\n===\n\n**NOTES TO NEWCOMERS:**\n\\* Please arrive around 30-40m PAST 6PM if you're NEW to the group. Most of the regulars arrive from",
-      "group": "San Francisco Spanish-Language Meetup",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "happy-hour",
-      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -2346,8 +2215,8 @@
       "group": "Friday Vegan/Live-food Happy Hour & Dinner with Live Music",
       "source": "meetup",
       "category": "social",
-      "subcategory": "dancing",
-      "geoArea": "north-bay"
+      "subcategory": "food-drink",
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -2364,6 +2233,19 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
+      "title": "Les Copains -- Napa French Discussion Group",
+      "date": "2026-03-28T16:30:00.000Z",
+      "venue": "San Francisco Bay Area",
+      "url": "https://www.meetup.com/lescopains/events/313697102/",
+      "description": "We are meeting via Zoom every Saturday, 9:30-11:00am California time. To receive the Zoom link, which is the same for every meeting, please RSVP and also send your email address to me at lueckegreg@gm",
+      "group": "Les Copains FRENCH Discussion Group",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "language",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
       "title": "Angel Island hike to the top/North Ridge & Sunset loop. 5-6 miles, 850 ft.",
       "date": "2026-03-28T16:45:00.000Z",
       "venue": "Tiburon Ferry Terminal, Tiburon, CA 94920",
@@ -2374,6 +2256,19 @@
       "category": "social",
       "subcategory": "hiking",
       "geoArea": "north-bay"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "March Hike - San Francisco",
+      "date": "2026-03-28T17:00:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/san-francisco-professional-business-women-meetup-group/events/313511879/",
+      "description": "",
+      "group": "Lesbian Professional Women's Hiking Group",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "hiking",
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -2437,8 +2332,21 @@
       "group": "Tech Girls Social",
       "source": "meetup",
       "category": "social",
-      "subcategory": "language",
+      "subcategory": "social-general",
       "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Brisk Walk & Shop--SW corner Ordway & Marin, Albany, 11a",
+      "date": "2026-03-28T18:00:00.000Z",
+      "venue": "Marin Ave & Ordway St, Albany, CA 94707",
+      "url": "https://www.meetup.com/albany-area-walkers/events/313698261/",
+      "description": "We are a warm and friendly group of walkers who like to get a really good cardio workout. We meet at the South West corner of Ordway and Marin. We walk briskly up to Marin circle, and then continue at",
+      "group": "Albany Area Walkers",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "hiking",
+      "geoArea": "north-bay"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -2464,7 +2372,20 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "hiking",
-      "geoArea": "north-bay"
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "San Francisco CHOCOLATE SALON 2026 - 20th Anniversary Festival",
+      "date": "2026-03-28T18:00:00.000Z",
+      "venue": "San Francisco County Fair Building",
+      "url": "https://www.meetup.com/incredible-food-wine-experiences/events/312395971/",
+      "description": "**The most delicious of California artisan chocolate events, and now in its 20th Anniversary!**\n\nThe **Original and Premier Artisan** Chocolate Show on the West Coast takes place this Spring at the An",
+      "group": "Incredible Food + Wine Experiences for Television",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "arts",
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -2503,19 +2424,6 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "food-drink",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "San Francisco CHOCOLATE SALON 2026 - 20th Anniversary Festival",
-      "date": "2026-03-28T18:00:00.000Z",
-      "venue": "San Francisco County Fair Building",
-      "url": "https://www.meetup.com/sf-travel-addicts/events/312396001/",
-      "description": "**The most delicious of California artisan chocolate events, and now in its 20th Anniversary!**\n\nThe **Original and Premier Artisan** Chocolate Show on the West Coast takes place this Spring at the An",
-      "group": "SF Travel Addicts",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "arts",
       "geoArea": "sf"
     },
     {
@@ -2572,19 +2480,6 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Chocolate Salon Panel: Guided Tasting by the Cacao Muse",
-      "date": "2026-03-28T19:45:00.000Z",
-      "venue": "San Francisco County Fair Building",
-      "url": "https://www.meetup.com/sfba-lgbtq-singles-community/events/313898264/",
-      "description": "New Panel at the 20th Anniversary **SAN FRANCISCO INTERNATIONAL CHOCOLATE SALON & FESTIVAL on Saturday, March 28th**:\n\n***Guided Tasting by the Cacao Muse***\n\nJoin Birgitte Rasine, author of The Cacao",
-      "group": "SFBA LGBTQ Singles Community",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "arts",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
       "title": "Briones Hike (Moderate 7 Miles)",
       "date": "2026-03-28T20:00:00.000Z",
       "venue": "Bay Area",
@@ -2623,19 +2518,6 @@
       "geoArea": "sf"
     },
     {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "Korean for Everyone - Beginners: Free Class & Cultural Meetup",
-      "date": "2026-03-28T20:00:00.000Z",
-      "venue": "1911 Hayes St",
-      "url": "https://www.meetup.com/san-francisco-korean-language-and-culture/events/313700268/",
-      "description": "**Come hang out with us at the San Francisco Korean Culture and Language Meetup Group!**\n\nThis Meetup is for **beginner-level Korean learners**.\nIf you already have a basic understanding of Korean and",
-      "group": "San Francisco Korean Language and Culture",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "arts",
-      "geoArea": "sf"
-    },
-    {
       "id": "luma-evt-UVHmbb6KgfNqFwh",
       "title": "Reve x TIAT Makeathon",
       "date": "2026-03-28T21:00:00.000Z",
@@ -2670,7 +2552,7 @@
       "group": "The San Francisco Bay Area CHOCOLATE Meetup",
       "source": "meetup",
       "category": "social",
-      "subcategory": "arts",
+      "subcategory": "language",
       "geoArea": "sf"
     },
     {
@@ -2683,20 +2565,7 @@
       "group": "Incredible Food + Wine Experiences for Television",
       "source": "meetup",
       "category": "social",
-      "subcategory": "arts",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "Chocolate Panel: Flavor Lineage, Asian American Perspectives in Fine Chocolate",
-      "date": "2026-03-28T21:15:00.000Z",
-      "venue": "San Francisco County Fair Building",
-      "url": "https://www.meetup.com/30-44yrsold-foradventures-friendships-fun/events/313590068/",
-      "description": "New Panel at the 20th Anniversary SAN FRANCISCO INTERNATIONAL CHOCOLATE SALON & FESTIVAL:\n\n***Flavor Lineage, Asian American Perspectives in Fine Chocolate***\n\nJoin local award winning Asian American ",
-      "group": "30-44 Yrs Old for Adventures, Friendships, & Fun",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "arts",
+      "subcategory": "language",
       "geoArea": "sf"
     },
     {
@@ -2740,7 +2609,7 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Sweeney Milagra Mori BDay Loop (Hard) - 13mi 2523ft EG w/10.9mi opt 7AM start",
+      "title": "Sweeney MilagraMori BDay Loop (Hard) -13mi 2523ft EG w/11mi opt 7 or 8:30a start",
       "date": "2026-03-29T14:00:00.000Z",
       "venue": "Bay Area",
       "url": "https://www.meetup.com/ushiking-bayarea/events/313825439/",
@@ -2763,6 +2632,32 @@
       "category": "social",
       "subcategory": "hiking",
       "geoArea": "north-bay"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Hot Girls Walking for Palestine 🇵🇸❤️‍🔥",
+      "date": "2026-03-29T16:00:00.000Z",
+      "venue": "Jaffa Coffee Roasters",
+      "url": "https://www.meetup.com/bay-area-active-social-20s-30s/events/313615488/",
+      "description": "Real hot girls know that collective change and meaningful, intentional community is the only path to liberation 💅🏽\n\nGirlhood is precious—there’s a reason we yearn for and keep returning to it. We ne",
+      "group": "Bay Area Active & Social - 20s, 30s & 40s",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "hiking",
+      "geoArea": "east-bay"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Sunday 9a Walk McLaughlin Eastshore Park at the Berkeley Marina",
+      "date": "2026-03-29T16:00:00.000Z",
+      "venue": "Marina Boulevard",
+      "url": "https://www.meetup.com/albany-area-walkers/events/313714679/",
+      "description": "COVID NOTE: Please be fully vaccinated against COVID-19. Masking is optional.\n\nPlease arrive a bit early as we leave promptly at 9:00a.\n\nThis is a 70 minute mostly level loop with options (some return",
+      "group": "Albany Area Walkers",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "hiking",
+      "geoArea": "east-bay"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -2830,18 +2725,17 @@
       "geoArea": "sf"
     },
     {
-      "id": "partiful-mfjGFTRVAEQJDQTOu3wu",
-      "title": "Park Hop Collective",
-      "date": "2026-03-29T18:00:00.000Z",
-      "venue": "The Dairy at Sports Basement · San Francisco, CA",
-      "address": "610 Old Mason St, San Francisco, CA 94129",
-      "url": "https://partiful.com/e/mfjGFTRVAEQJDQTOu3wu",
-      "description": "Park Hop Nation started as a simple love for Disney parks — just a page sharing the magic, the stories, the history, and the fandom culture we couldn’t get enough of.\n\nOver time, it grew into a commun",
-      "source": "partiful",
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Sundays BollyX Dance Fitness Class in San Mateo",
+      "date": "2026-03-29T18:30:00.000Z",
+      "venue": "Motion Arts Center",
+      "url": "https://www.meetup.com/san-mateo-bollywood-dance-meetup-group/events/313716748/",
+      "description": "**EVERY SUNDAY**\n11:30am - 12:30pm\n\n**CLASS LOCATION:**\nMotion Arts Center\n217 S Claremont St,\nSan Mateo, CA 94401\n\n**PRICE PER PERSON:**\n**New Student 7 Day - 7 Class Intro Pass: $69** (Save up to $1",
+      "group": "San Mateo Bollywood Dance Meetup",
+      "source": "meetup",
       "category": "social",
-      "subcategory": "arts",
-      "geoArea": "sf",
-      "geoVerified": true
+      "subcategory": "fitness",
+      "geoArea": "peninsula"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -2905,7 +2799,7 @@
       "group": "Bay Area Millennials and Gen Z Meetup Group",
       "source": "meetup",
       "category": "social",
-      "subcategory": "food-drink",
+      "subcategory": "happy-hour",
       "geoArea": "east-bay"
     },
     {
@@ -2918,7 +2812,7 @@
       "group": "Live Jazz (& Blues) Meetup Group",
       "source": "meetup",
       "category": "social",
-      "subcategory": "food-drink",
+      "subcategory": "happy-hour",
       "geoArea": "east-bay"
     },
     {
@@ -2944,7 +2838,7 @@
       "group": "MintPress Creative Hub: Art, Music, Anime and TCGs!",
       "source": "meetup",
       "category": "social",
-      "subcategory": "dating",
+      "subcategory": "arts",
       "geoArea": "east-bay"
     },
     {
@@ -2957,7 +2851,20 @@
       "group": "Noisebridge Hackerspace",
       "source": "meetup",
       "category": "social",
-      "subcategory": "dancing",
+      "subcategory": "arts",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "QUEER & WOMEN's ALL OUT COMEDY Open Mic!",
+      "date": "2026-03-30T01:30:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/whole-bay-area-lesbians-over-50/events/313754372/",
+      "description": "",
+      "group": "LezBayIns: Lesbians Around The Bay Over 50",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "comedy",
       "geoArea": "sf"
     },
     {
@@ -2971,6 +2878,19 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "fitness",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Learn How To Instantly Improve Your Street Photography With Composition",
+      "date": "2026-03-31T00:00:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/san-jose-photography-community/events/313910624/",
+      "description": "This meetup is available for our photo community's monthly members\n**➡️MORE INFO Become A Member → [https://www.shutterobi.com/join](https://www.shutterobi.com/join)**\nEnjoy unlimited community meetup",
+      "group": "San Jose Photography Community",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "arts",
       "geoArea": "sf"
     },
     {
@@ -3109,8 +3029,21 @@
       "group": "Live Jazz (& Blues) Meetup Group",
       "source": "meetup",
       "category": "social",
-      "subcategory": "dancing",
+      "subcategory": "happy-hour",
       "geoArea": "east-bay"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "☀️ AM Cross-train: Strength training (virtual)",
+      "date": "2026-04-01T13:30:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/trail-running-group/events/313837615/",
+      "description": "",
+      "group": "🌲TRAIL RUNNING GROUP (w/ race/x-training, ☕️ socials)",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "social-general",
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -3166,15 +3099,15 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Thomas Nagel - What is it Like to be a Bat?",
-      "date": "2026-04-03T01:00:00.000Z",
-      "venue": "The Embassy Network",
-      "url": "https://www.meetup.com/sf-philosophy-reading-group/events/313863675/",
-      "description": "For this session, we will be reading Thomas Nagel's seminal paper on consciousness: \"What is it Like to Be a Bat?\".\n\nNagel begins by challenging the idea that that materialism and physicalism can suff",
-      "group": "San Francisco Philosophy Reading Group",
+      "title": "Mini-Meetup:  First Friday Music and More at Windchaser Winery",
+      "date": "2026-04-03T22:30:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/east-bay-over-60-social-club-meetup-group/events/313661444/",
+      "description": "",
+      "group": "East Bay Over-60 Social Group",
       "source": "meetup",
       "category": "social",
-      "subcategory": "book-club",
+      "subcategory": "happy-hour",
       "geoArea": "sf"
     },
     {
@@ -3214,7 +3147,20 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "hiking",
-      "geoArea": "north-bay"
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Hike Angel Island",
+      "date": "2026-04-04T16:30:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/senior-walkabouters/events/313878186/",
+      "description": "",
+      "group": "Senior Walkabouters & Adventure Group   --   \"SWAG\"",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "hiking",
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -3243,20 +3189,6 @@
       "geoArea": "sf"
     },
     {
-      "id": "partiful-BPPexNRbyU9iE9AhJmNb",
-      "title": "EAT ME! Artisan Food Fest",
-      "date": "2026-04-04T18:00:00.000Z",
-      "venue": "The Box SF · San Francisco, CA",
-      "address": "1069 Howard St, San Francisco, CA 94103",
-      "url": "https://partiful.com/e/BPPexNRbyU9iE9AhJmNb",
-      "description": "Join us at our historic venue on April 4-5 for an Easter edition of EAT ME! Artisan Food Fest - a delicious monthly event held at The Box SF!\n\nWe're opening up our one-of-a-kind event space & antique ",
-      "source": "partiful",
-      "category": "social",
-      "subcategory": "food-drink",
-      "geoArea": "sf",
-      "geoVerified": true
-    },
-    {
       "id": "mu-aHR0cHM6Ly",
       "title": "Dodgeball/Sloshball @ San Leandro Marina Park (San Leandro)",
       "date": "2026-04-04T18:30:00.000Z",
@@ -3266,7 +3198,7 @@
       "group": "Bay Area Millennials and Gen Z Meetup Group",
       "source": "meetup",
       "category": "social",
-      "subcategory": "happy-hour",
+      "subcategory": "food-drink",
       "geoArea": "north-bay"
     },
     {
@@ -3293,7 +3225,46 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "fitness",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "BREAK DANCE x HIIT Work Out - ALL LEVELS!!!",
+      "date": "2026-04-04T20:00:00.000Z",
+      "venue": "Jack London",
+      "url": "https://www.meetup.com/hiitmeisteroakland/events/313787025/",
+      "description": "**Combining a variety of TopRock break dance moves in the format of HIIT training, this class will be like no other you have taken! Specifically created with non-break dancers in mind, this class is f",
+      "group": "Break Dance x HIIT Workouts in Oakland",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "happy-hour",
       "geoArea": "east-bay"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "☀️Family Sundays: Brisk Bay Trail Walk/Run",
+      "date": "2026-04-05T16:30:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/trail-running-group/events/313812831/",
+      "description": "",
+      "group": "🌲TRAIL RUNNING GROUP (w/ race/x-training, ☕️ socials)",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "hiking",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Tarp in the Park - Misfit Bunny Edition 🏳️‍⚧️🐰🪺🏳️‍🌈",
+      "date": "2026-04-05T18:00:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/queermisfits/events/313777496/",
+      "description": "",
+      "group": "Queer Misfits",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "outdoors",
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -3331,7 +3302,7 @@
       "group": "irish music trad session",
       "source": "meetup",
       "category": "social",
-      "subcategory": "happy-hour",
+      "subcategory": "social-general",
       "geoArea": "sf"
     },
     {
@@ -3344,7 +3315,7 @@
       "group": "Irish Dance - San Francisco Bay Area",
       "source": "meetup",
       "category": "social",
-      "subcategory": "dancing",
+      "subcategory": "arts",
       "geoArea": "sf"
     },
     {
@@ -3388,6 +3359,19 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
+      "title": "Walk and Talk",
+      "date": "2026-04-08T01:00:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/menlo-park-womens-support-meetup-group/events/313070822/",
+      "description": "",
+      "group": "Menlo Park Area Women Better than 50",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "hiking",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
       "title": "Golden Gate Park -3.5 or 9 miles",
       "date": "2026-04-08T17:00:00.000Z",
       "venue": "Bay Area",
@@ -3426,6 +3410,19 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
+      "title": "Freekeh on 3126 16th St",
+      "date": "2026-04-09T01:00:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/mission-district-girlfriends/events/313387661/",
+      "description": "",
+      "group": "Mission District Girlfriends",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "social-general",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
       "title": "Multi-Media Presentation with Percussionist John Santos",
       "date": "2026-04-09T01:30:00.000Z",
       "venue": "Museum of the African Diaspora",
@@ -3434,7 +3431,7 @@
       "group": "Live Jazz (& Blues) Meetup Group",
       "source": "meetup",
       "category": "social",
-      "subcategory": "dancing",
+      "subcategory": "happy-hour",
       "geoArea": "sf"
     },
     {
@@ -3448,7 +3445,7 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "arts",
-      "geoArea": "east-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -3461,7 +3458,7 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "dancing",
-      "geoArea": "east-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -3486,7 +3483,33 @@
       "group": "! !Outdoor and Indoor Adventure in South Bay!! Come Join Us!",
       "source": "meetup",
       "category": "social",
-      "subcategory": "dating",
+      "subcategory": "networking",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Ohlone Wilderness Trail Backpacking",
+      "date": "2026-04-10T14:00:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/sanfranciscobay/events/313836194/",
+      "description": "",
+      "group": "San Francisco Bay Chapter of the Sierra Club",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "hiking",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Wrestling at the Beach",
+      "date": "2026-04-10T17:00:00.000Z",
+      "venue": "Ocean Beach",
+      "url": "https://www.meetup.com/san-francisco-beach-wrestling-club/events/313643531/",
+      "description": "**Please do not attend without RSVP as we need your agreement to the release and waiver of liability below.**\n\nAny skill level is welcome (even if you’ve never done Beach Wrestling before or if you ha",
+      "group": "San Francisco Beach Wrestling Club",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "fitness",
       "geoArea": "sf"
     },
     {
@@ -3539,7 +3562,7 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "hiking",
-      "geoArea": "north-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -3577,22 +3600,8 @@
       "group": "Video Game Book Club - San Francisco",
       "source": "meetup",
       "category": "social",
-      "subcategory": "games",
+      "subcategory": "happy-hour",
       "geoArea": "sf"
-    },
-    {
-      "id": "partiful-FwDfvkU06sq8SUu5KIum",
-      "title": "Figure Drawing Workshop",
-      "date": "2026-04-11T20:00:00.000Z",
-      "venue": "African American Art & Culture Complex · San Francisco, CA",
-      "address": "762 Fulton St, San Francisco, CA 94102",
-      "url": "https://partiful.com/e/FwDfvkU06sq8SUu5KIum",
-      "description": "Free Live Figure Drawing Workshop\n\nJoin us for an invigorating free live figure drawing workshop that promises to unleash your creativity and enhance your artistic skills! This is a unique opportunity",
-      "source": "partiful",
-      "category": "social",
-      "subcategory": "arts",
-      "geoArea": "sf",
-      "geoVerified": true
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -3619,19 +3628,6 @@
       "category": "social",
       "subcategory": "hiking",
       "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "Language and Cultural Exchange Event! Berkeley! April  11th @ Cellarmaker",
-      "date": "2026-04-11T22:00:00.000Z",
-      "venue": "Cellarmaker Brewing Company",
-      "url": "https://www.meetup.com/eastbaylanguageexchange/events/313754252/",
-      "description": "Welcome!\nParticipate with us on Saturday for a cultural and language exchange. This event will be hosted by native Spanish speakers, however, all languages are welcome!\nSpend your Saturday afternoon c",
-      "group": "Berkeley/Oakland International Language Exchange",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "arts",
-      "geoArea": "east-bay"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -3669,7 +3665,7 @@
       "group": "East Bay Black Professionals Association",
       "source": "meetup",
       "category": "social",
-      "subcategory": "food-drink",
+      "subcategory": "arts",
       "geoArea": "east-bay"
     },
     {
@@ -3682,7 +3678,7 @@
       "group": "Bay Area Social Scene",
       "source": "meetup",
       "category": "social",
-      "subcategory": "dancing",
+      "subcategory": "happy-hour",
       "geoArea": "east-bay"
     },
     {
@@ -3709,7 +3705,7 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "happy-hour",
-      "geoArea": "east-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -3790,6 +3786,19 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
+      "title": "April Book Club: Babel at Book Society",
+      "date": "2026-04-18T22:00:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/eastbay-womens-booze-book/events/313605876/",
+      "description": "",
+      "group": "Eastbay Ladies Books and Booze lovers!",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "social-general",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
       "title": "(In Person) Our Monthly Concert",
       "date": "2026-04-19T00:00:00.000Z",
       "venue": "David's house",
@@ -3811,7 +3820,7 @@
       "group": "Walking with a Guide",
       "source": "meetup",
       "category": "social",
-      "subcategory": "food-drink",
+      "subcategory": "happy-hour",
       "geoArea": "east-bay"
     },
     {
@@ -3842,19 +3851,6 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Treffpunkt East Bay",
-      "date": "2026-04-19T18:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/german-56/events/313209507/",
-      "description": "",
-      "group": "SF German Stammtisch",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "social-general",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
       "title": "Discover SF -- Cherry Blossom Festival, Japantown, SF",
       "date": "2026-04-19T19:00:00.000Z",
       "venue": "Post St & Buchanan St",
@@ -3863,7 +3859,7 @@
       "group": "Growth Social Volunteering Crew",
       "source": "meetup",
       "category": "social",
-      "subcategory": "volunteering",
+      "subcategory": "social-general",
       "geoArea": "sf"
     },
     {
@@ -3954,7 +3950,7 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "hiking",
-      "geoArea": "south-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -4006,20 +4002,6 @@
       "category": "social",
       "subcategory": "hiking",
       "geoArea": "east-bay"
-    },
-    {
-      "id": "partiful-zDgYJ7zwu4D11lw3cvD9",
-      "title": "(CA) Bay Area Book Festival",
-      "date": "2026-05-30T17:00:00.000Z",
-      "venue": "Martin Luther King Jr. Civic Center Park · Berkeley, CA",
-      "address": "2151 Martin Luther King Jr Way, Berkeley, CA 94704",
-      "url": "https://partiful.com/e/zDgYJ7zwu4D11lw3cvD9",
-      "description": "There doesn’t appear to be tickets for this event.",
-      "source": "partiful",
-      "category": "social",
-      "subcategory": "book-club",
-      "geoArea": "east-bay",
-      "geoVerified": true
     }
   ],
   "nightOut": [
@@ -4038,12 +4020,25 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Monday Language Exchange Spanish-English",
-      "date": "2026-03-24T01:30:00.000Z",
-      "venue": "Jupiter's",
-      "url": "https://www.meetup.com/berkeley-language-exchange/events/313486249/",
-      "description": "**Practice languages, make new friends, and have fun with us every week!**\n\nWe're a group of people keen to improve our second language of all levels and meet new friends in the bay area. We're catere",
-      "group": "Berkeley Language Exchange English-Spanish",
+      "title": "Mac & Mike's Comedy Night ",
+      "date": "2026-03-25T02:30:00.000Z",
+      "venue": "Barbary Coast",
+      "url": "https://www.meetup.com/barbary-coast/events/313612134/",
+      "description": "Join local San Francisco comedians Mac and Mike as they take over the Barbary Coast SF lounge for a weekly showcase of emerging comedic talent. Every Tuesday from 7-8pm, they'll bring their funniest f",
+      "group": "San Francisco Cannabis Club @ Barbary Coast SF",
+      "source": "meetup",
+      "category": "night-out",
+      "subcategory": "comedy",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Berkeley Live Stand-Up Comedy Open Mic Free Every Tuesday 830pm",
+      "date": "2026-03-25T03:30:00.000Z",
+      "venue": "The BreakRoom",
+      "url": "https://www.meetup.com/berkeley-live-stand-up-comedy-open-mic-free/events/313645573/",
+      "description": "Join us at Berkeley Live Stand-Up Comedy Open Mic Free for a fun-filled Night Out! Enjoy a night of laughter with hilarious comedy acts while sipping on delicious cocktails during our Cocktails & Happ",
+      "group": "Berkeley Live Stand-Up Comedy Open Mic Free",
       "source": "meetup",
       "category": "night-out",
       "subcategory": "happy-hour",
@@ -4076,12 +4071,38 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
+      "title": "Wednesdays BollyX Dance Fitness Class in San Mateo",
+      "date": "2026-03-26T01:00:00.000Z",
+      "venue": "Motion Arts Center",
+      "url": "https://www.meetup.com/san-mateo-bollywood-dance-meetup-group/events/313661191/",
+      "description": "**COME JOIN THE PARTY!**\n\n**EVERY WEDNESDAY**\n6:00pm - 7:00pm\n\n**CLASS LOCATION:**\nMotion Arts Center\n217 S Claremont St,\nSan Mateo, CA 94401\n\n**PRICE PER PERSON:**\n**New Student 7 Day - 7 Class Intro",
+      "group": "San Mateo Bollywood Dance Meetup",
+      "source": "meetup",
+      "category": "night-out",
+      "subcategory": "dancing",
+      "geoArea": "peninsula"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
       "title": "Board Game Community Mixer",
       "date": "2026-03-26T02:00:00.000Z",
       "venue": "Bay Area",
       "url": "https://www.meetup.com/dogpatchgames/events/313754281/",
       "description": "This event is for everyone! Join in to meet some new people in our great community. We’ll have a ton of fun social and party games to play, and we’ll mix everyone up to play a few games over the whole",
       "group": "Dogpatch Games Board Game Club",
+      "source": "meetup",
+      "category": "night-out",
+      "subcategory": "bars",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Live Jazz @ Barbary Coast SF w/ Veotis",
+      "date": "2026-03-26T02:00:00.000Z",
+      "venue": "Barbary Coast",
+      "url": "https://www.meetup.com/barbary-coast/events/313610346/",
+      "description": "Join us every Wednesday for an evening of exceptional jazz with Bay Area native and lounge favorite, [Veotis Latchison](https://www.instagram.com/veotisofthewest?igsh=NTc4MTIwNjQ2YQ==). A regular fixt",
+      "group": "San Francisco Cannabis Club @ Barbary Coast SF",
       "source": "meetup",
       "category": "night-out",
       "subcategory": "bars",
@@ -4098,7 +4119,7 @@
       "source": "meetup",
       "category": "night-out",
       "subcategory": "dancing",
-      "geoArea": "east-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -4111,6 +4132,32 @@
       "source": "meetup",
       "category": "night-out",
       "subcategory": "happy-hour",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Take a FUN Improv Class (in-person) - then After Party!",
+      "date": "2026-03-27T02:00:00.000Z",
+      "venue": "Leela Improv Theatre",
+      "url": "https://www.meetup.com/thursdayimprovclass/events/313677708/",
+      "description": "Welcome to the fun!!! Here are all the details:\n\nStep 1.) You must register and pay $25 on Eventbrite ([https://thursdayimprovclass.eventbrite.com](https://thursdayimprovclass.eventbrite.com)) to secu",
+      "group": "Thursday Night Drop-in Improv Classes",
+      "source": "meetup",
+      "category": "night-out",
+      "subcategory": "comedy",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Karaoke + Speed Date | Ages 25-45 (Suggested)\n",
+      "date": "2026-03-27T02:00:00.000Z",
+      "venue": "Lost And Found",
+      "url": "https://www.meetup.com/bay-area-speed-dating-mixers-matchmaking/events/313409340/",
+      "description": "**SIGN UP LINK **[karaokeandspeeddating.eventbrite.com](karaokeandspeeddating.eventbrite.com)\n\nGet your ticket on Eventbrite to confirm your spot, this event is promoted on other platforms. Walk-ins w",
+      "group": "Bay Area Speed Dating, Mixers & Matchmaking",
+      "source": "meetup",
+      "category": "night-out",
+      "subcategory": "dating",
       "geoArea": "sf"
     },
     {
@@ -4154,6 +4201,19 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
+      "title": "Drinks First, Laughs Later",
+      "date": "2026-03-28T01:00:00.000Z",
+      "venue": "242 O'Farrell St",
+      "url": "https://www.meetup.com/humans-over-30/events/313779414/",
+      "description": "Let’s start the night the right way: drinks, laughs, and good humans.\n\nWe’ll meet at **Bartlett Hall (242 O'Farrell St, San Francisco) at 6:00 PM** for a relaxed happy hour. Grab a drink, meet some ne",
+      "group": "Humans over 30",
+      "source": "meetup",
+      "category": "night-out",
+      "subcategory": "happy-hour",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
       "title": "New to SF? 🍜 Ramen Cooking Social Night — Meet New Friends (Come Solo!)",
       "date": "2026-03-28T02:00:00.000Z",
       "venue": "The Story of Ramen",
@@ -4193,6 +4253,32 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
+      "title": "Stand-Up Comedy Showcase: “Acidic Laughs” @Alpha Brewing Co",
+      "date": "2026-03-29T02:00:00.000Z",
+      "venue": "Alpha Acid Brewing Co",
+      "url": "https://www.meetup.com/bay-area-s-best-stand-up/events/313790192/",
+      "description": "\"Acidic Laughs @Alpha Acid Brewing Co\" is the Newest and Hottest Comedy Show in the Peninsula. The Bubbly is pouring, the kegs are unloading, and the laughs are echoing through this very intimate spac",
+      "group": "Bay Area’s Best Stand-Up",
+      "source": "meetup",
+      "category": "night-out",
+      "subcategory": "club",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Mac n` Mike, on Saturday Night",
+      "date": "2026-03-29T02:30:00.000Z",
+      "venue": "Barbary Coast",
+      "url": "https://www.meetup.com/barbary-coast/events/313613836/",
+      "description": "Join local San Francisco comedians Mac and Mike as they take over the Barbary Coast SF lounge for a weekly showcase of emerging comedic talent. Every Saturday from 7:30PM -8:30PM, they'll bring their ",
+      "group": "San Francisco Cannabis Club @ Barbary Coast SF",
+      "source": "meetup",
+      "category": "night-out",
+      "subcategory": "comedy",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
       "title": "Saturday Bachata Dance Party by Mamajuana Fiesta",
       "date": "2026-03-29T03:00:00.000Z",
       "venue": "ALLEGRO BALLROOM (New Location)",
@@ -4219,6 +4305,19 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
+      "title": "Wine Tasting Party at Historic Winery for Single Professionals, 30s/40s",
+      "date": "2026-03-29T22:00:00.000Z",
+      "venue": "William Welch Wines Tasting Room",
+      "url": "https://www.meetup.com/palo-alto-champagne-and-wine-meetup-group/events/313622628/",
+      "description": "Meet single professionals, 30s/40s, who appreciate fine wine at a lovely winery. This fun venue is half museum and half winery! Dress to impress. Sunday, March 29, 2026, 3-5pm.\n\n**[DISCOUNT TICKETS](h",
+      "group": "Palo Alto Champagne and Wine Meetup Group",
+      "source": "meetup",
+      "category": "night-out",
+      "subcategory": "dating",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
       "title": "Live Jazz @ Barbary Coast SF w/ Alisha Williams",
       "date": "2026-03-30T00:00:00.000Z",
       "venue": "Barbary Coast",
@@ -4228,18 +4327,6 @@
       "source": "meetup",
       "category": "night-out",
       "subcategory": "live-music",
-      "geoArea": "sf"
-    },
-    {
-      "id": "luma-evt-raWEfJJNgXZCuoo",
-      "title": "Women in AI: Bay Area Leaders, Funders, & Operators | Panel + Happy Hour",
-      "date": "2026-04-01T00:30:00.000Z",
-      "venue": "San Francisco, CA",
-      "url": "https://lu.ma/lfxtxm4q",
-      "description": "",
-      "source": "luma",
-      "category": "night-out",
-      "subcategory": "happy-hour",
       "geoArea": "sf"
     },
     {
@@ -4257,16 +4344,55 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "E-bike Tour In Half Moon Bay",
-      "date": "2026-04-04T18:00:00.000Z",
-      "venue": "Half Moon Bay, CA",
-      "url": "https://www.meetup.com/womens-50-group-travel-and-hiking-trips-solo-welcome/events/313675981/",
-      "description": "Come ride Half Moon's Bay's heart stopping ocean scenic and historic downtown tour. Ride to all the breathtaking sights, both scenic and historic. Enjoy Half Moon Bay's natural beauty and see the whol",
-      "group": "Wanderlust Women 50+ Active Hike & Bike Trips-Solo welcome!",
+      "title": "Mac & Mike's Comedy Night ",
+      "date": "2026-04-01T02:30:00.000Z",
+      "venue": "Barbary Coast",
+      "url": "https://www.meetup.com/barbary-coast/events/313612150/",
+      "description": "Join local San Francisco comedians Mac and Mike as they take over the Barbary Coast SF lounge for a weekly showcase of emerging comedic talent. Every Tuesday from 7-8pm, they'll bring their funniest f",
+      "group": "San Francisco Cannabis Club @ Barbary Coast SF",
       "source": "meetup",
       "category": "night-out",
-      "subcategory": "club",
-      "geoArea": "peninsula"
+      "subcategory": "comedy",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Zizek Afterparty",
+      "date": "2026-04-02T02:00:00.000Z",
+      "venue": "Afterwork Bar",
+      "url": "https://www.meetup.com/renegadephilosophers/events/313805753/",
+      "description": "We will have some drinks and discuss what the hell Zizek was talking about the previous night, and so on!\n\\*sniff\\*",
+      "group": "Renegade Philosophers",
+      "source": "meetup",
+      "category": "night-out",
+      "subcategory": "happy-hour",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "April Fool's Comedy Show: Laughs @The Lariat Tavern",
+      "date": "2026-04-02T02:30:00.000Z",
+      "venue": "The Lariat Tavern",
+      "url": "https://www.meetup.com/bay-area-s-best-stand-up/events/313894588/",
+      "description": "APRIL FOOL'S But this Comedy Show Ain't No Joke!\n\nStand-Up Comedy Returns to The Lariat Tavern, Wednesday, April 1st for this SPECIAL EVENT! Welcome to one of the best Stand-Up Comedy Shows in the Pen",
+      "group": "Bay Area’s Best Stand-Up",
+      "source": "meetup",
+      "category": "night-out",
+      "subcategory": "comedy",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "FOOLS RUSH IN | Singles Speed Dating Ages 25-45\n",
+      "date": "2026-04-03T02:00:00.000Z",
+      "venue": "Bottoms Up Bar & Lounge",
+      "url": "https://www.meetup.com/bay-area-speed-dating-mixers-matchmaking/events/313755019/",
+      "description": "**SIGN UP LINK **\n\n[FoolsSpeedDating.eventbrite.com](FoolsSpeedDating.eventbrite.com)\n\n**Get your ticket on Eventbrite to confirm your spot, this event is promoted on other platforms. Walk-ins welcome",
+      "group": "Bay Area Speed Dating, Mixers & Matchmaking",
+      "source": "meetup",
+      "category": "night-out",
+      "subcategory": "dating",
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -4279,19 +4405,6 @@
       "source": "meetup",
       "category": "night-out",
       "subcategory": "bars",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "UGANDA – 9 Days Murchison Falls, Big 5, Chimps & Gorillas Trekking",
-      "date": "2026-04-06T02:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/san-francisco-bucket-list-group-travel/events/312816245/",
-      "description": "Check your bucket list with this amazing Safari which is tailored to give you a feel of five of Uganda’s Wild Parks, with this you are assured of viewing a number of animals which include the Zebras o",
-      "group": "San Francisco - Bucket List Group Travel",
-      "source": "meetup",
-      "category": "night-out",
-      "subcategory": "happy-hour",
       "geoArea": "sf"
     },
     {
@@ -4318,7 +4431,7 @@
       "source": "meetup",
       "category": "night-out",
       "subcategory": "dating",
-      "geoArea": "south-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -4331,19 +4444,19 @@
       "source": "meetup",
       "category": "night-out",
       "subcategory": "dating",
-      "geoArea": "south-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Portugal Slowcation! - Apr 2026",
+      "title": "Advanced Degrees Mixer for Single Professionals with a Doctorate or Masters",
       "date": "2026-04-10T02:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/san-francisco-outdoor-adventure-meetup/events/307570868/",
-      "description": "**[PORTUGAL SLOWCATION!](https://globe-drifters.com/trip/portugal-slowcation/)**\n\n**• Dates:** April 9 - 19, 2026 *(11 days / 10 nights)*\n**• Cost:** $4450 *(per person, excluding flights)*\n**• Single",
-      "group": "San Francisco Outdoor Adventure Meetup",
+      "venue": "DACHA Kitchen & Bar",
+      "url": "https://www.meetup.com/palo-alto-champagne-and-wine-meetup-group/events/313731971/",
+      "description": "Meet new single friends with a Doctorate or Masters Degree at a lovely SF venue! Our FUN Mixer Game makes it EASY to connect. Adults of all ages welcome. Dress to impress. Thursday, April 9, 2026, 7-9",
+      "group": "Palo Alto Champagne and Wine Meetup Group",
       "source": "meetup",
       "category": "night-out",
-      "subcategory": "happy-hour",
+      "subcategory": "dating",
       "geoArea": "sf"
     },
     {
@@ -4357,7 +4470,7 @@
       "source": "meetup",
       "category": "night-out",
       "subcategory": "dating",
-      "geoArea": "south-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -4370,7 +4483,7 @@
       "source": "meetup",
       "category": "night-out",
       "subcategory": "dating",
-      "geoArea": "south-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -4383,7 +4496,7 @@
       "source": "meetup",
       "category": "night-out",
       "subcategory": "dating",
-      "geoArea": "south-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -4435,7 +4548,7 @@
       "source": "meetup",
       "category": "night-out",
       "subcategory": "dating",
-      "geoArea": "south-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -4448,20 +4561,7 @@
       "source": "meetup",
       "category": "night-out",
       "subcategory": "dating",
-      "geoArea": "south-bay"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "E-bike Tour San Francisco to Sausalito",
-      "date": "2026-04-18T17:00:00.000Z",
-      "venue": "Bay City Bike",
-      "url": "https://www.meetup.com/womens-50-group-travel-and-hiking-trips-solo-welcome/events/313676251/",
-      "description": "This iconic bike tour begins in San Francisco’s Fisherman’s Wharf – one of the only true wharfs of its kind left in America! From there, your journey follows the curve of the coast to see sea lions, t",
-      "group": "Wanderlust Women 50+ Active Hike & Bike Trips-Solo welcome!",
-      "source": "meetup",
-      "category": "night-out",
-      "subcategory": "club",
-      "geoArea": "north-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -4488,72 +4588,46 @@
       "category": "night-out",
       "subcategory": "happy-hour",
       "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "SF Bay to Breakers 12k/15k party-run",
+      "date": "2026-05-17T15:00:00.000Z",
+      "venue": "Main Street/Howard Street",
+      "url": "https://www.meetup.com/bay-area-active-social-20s-30s/events/310983475/",
+      "description": "NOTE: this is more of an informational event posting and less of a typical Meetup event posting since this is a city event with thousands of people, so meeting specific people from our group will be h",
+      "group": "Bay Area Active & Social - 20s, 30s & 40s",
+      "source": "meetup",
+      "category": "night-out",
+      "subcategory": "bars",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Bay 2 Breakers 2026",
+      "date": "2026-05-17T15:00:00.000Z",
+      "venue": "Main Street/Howard Street",
+      "url": "https://www.meetup.com/south-bay-indoor-outdoor-activities-group/events/313787304/",
+      "description": "**Even if you’ve never run a race, you’ve probably heard of Bay to Breakers!**\nThis iconic San Francisco tradition is a 12K (7.4 mile) run/walk/party with more than 25,000 participants. The course beg",
+      "group": "South Bay Indoor / Outdoor Activities Group (SBIO)",
+      "source": "meetup",
+      "category": "night-out",
+      "subcategory": "club",
+      "geoArea": "sf"
     }
   ],
   "all": [
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Tilden Regional Park, Golf Course Dr. staging, 7.4 miles, dogs off leash",
-      "date": "2026-03-23T15:30:00.000Z",
+      "title": "Cross-train: Strength training (virtual, lunch time)",
+      "date": "2026-03-23T19:00:00.000Z",
       "venue": "Bay Area",
-      "url": "https://www.meetup.com/meetup-group-gfpfhgkr/events/313888119/",
+      "url": "https://www.meetup.com/trail-running-group/events/313622782/",
       "description": "",
-      "group": "East Bay Ramblers",
+      "group": "🌲TRAIL RUNNING GROUP (w/ race/x-training, ☕️ socials)",
       "source": "meetup",
       "category": "social",
-      "subcategory": "outdoors",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "Campus to Tilden Wildflower Hike Mon Mar 23",
-      "date": "2026-03-23T16:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/meetup-group-ufqkyalb/events/313808208/",
-      "description": "",
-      "group": "Adventure Hikes",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "hiking",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "A day hike at Tilden Regional Park",
-      "date": "2026-03-23T16:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/sierra-foothill-hikers/events/313844277/",
-      "description": "",
-      "group": "Foothill Hikers",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "hiking",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "[San Francisco, CA] - 20260323 - Pacific Hackers @ RSAC 2026",
-      "date": "2026-03-23T17:00:00.000Z",
-      "venue": "Moscone Center",
-      "url": "https://www.meetup.com/pacifichackers/events/313109642/",
-      "description": "## Hello Hackers! We’re heading back to RSAC!\n\nWe are thrilled to announce our return to the **RSAC Villages**! If you're looking to bridge the gap between \"just attending\" and \"truly connecting,\" the",
-      "group": "Pacific Hackers Meetup",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "🌐 Global English Chat & Connect",
-      "date": "2026-03-23T20:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/west-coast-english-meetup-group/events/313622756/",
-      "description": "## Welcome to our Daily English Meetup!\n\n* **NB! Don't see the EVENT LINK?** Go to [speakduo.com](http://speakduo.com/) to see the full schedule and you can also join the event via a link there (It's ",
-      "group": "🚀 International Language Exchange | Online",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "arts",
+      "subcategory": "social-general",
       "geoArea": "sf"
     },
     {
@@ -4565,33 +4639,7 @@
       "description": "",
       "source": "luma",
       "category": "social",
-      "subcategory": "volunteering",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "🌍 English Practice: Meet & Learn (Daily & Free)",
-      "date": "2026-03-23T23:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/west-coast-english-meetup-group/events/313624983/",
-      "description": "## Welcome to our Daily English Meetup!\n\n* **NB! Don't see the EVENT LINK?** Go to [speakduo.com](http://speakduo.com/) to see the full schedule and you can also join the event via a link there (It's ",
-      "group": "🚀 International Language Exchange | Online",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "arts",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "Photography 101 For Absolute Beginners! Take Photos That You're Proud To Show",
-      "date": "2026-03-23T23:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/san-jose-photography-community/events/313776318/",
-      "description": "This meetup is available for our photo community's monthly members\n**➡️MORE INFO Become A Member → [https://www.shutterobi.com/join](https://www.shutterobi.com/join)**\nEnjoy unlimited community meetup",
-      "group": "San Jose Photography Community",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "arts",
+      "subcategory": "social-general",
       "geoArea": "sf"
     },
     {
@@ -4634,7 +4682,7 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "[Dinner] House of Prime Rib - Table for Ten",
+      "title": "[Dinner] House of Prime Rib - Table for Twelve",
       "date": "2026-03-24T00:00:00.000Z",
       "venue": "House of Prime Rib",
       "url": "https://www.meetup.com/sffoodies/events/312433289/",
@@ -4670,6 +4718,19 @@
       "category": "tech",
       "subcategory": "ai-ml",
       "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Art class Mon night, Oakland",
+      "date": "2026-03-24T01:00:00.000Z",
+      "venue": "4627 Shattuck",
+      "url": "https://www.meetup.com/wooden-fish-art-studio/events/313628024/",
+      "description": "The **first** session is **free.** If you're interested in starting regular long-term classes, you’re welcome to attend, take a look around, experience the class, and decide if it’s right for you.\n\n**",
+      "group": "Wooden Fish Art studio ART CLASSES",
+      "source": "meetup",
+      "category": "tech",
+      "subcategory": "ai-ml",
+      "geoArea": "east-bay"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -4738,16 +4799,29 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Monday Language Exchange Spanish-English",
+      "title": "Mission 5k fun run! | Little Star Pizza",
       "date": "2026-03-24T01:30:00.000Z",
-      "venue": "Jupiter's",
-      "url": "https://www.meetup.com/berkeley-language-exchange/events/313486249/",
-      "description": "**Practice languages, make new friends, and have fun with us every week!**\n\nWe're a group of people keen to improve our second language of all levels and meet new friends in the bay area. We're catere",
-      "group": "Berkeley Language Exchange English-Spanish",
+      "venue": "Little Star Pizza",
+      "url": "https://www.meetup.com/missionfunruns/events/313067535/",
+      "description": "we’re going to little star pizza on valencia!!! route tba but expect it to be mostly flat 🤠\n\nWe host a weekly 5km run every Monday evening, starting and ending at a \\*bar in or near the Mission Distr",
+      "group": "SF Mission Fun Runs",
       "source": "meetup",
-      "category": "night-out",
-      "subcategory": "happy-hour",
-      "geoArea": "east-bay"
+      "category": "social",
+      "subcategory": "fitness",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Country Line and Swing Dancing (Improver Dancers)",
+      "date": "2026-03-24T01:30:00.000Z",
+      "venue": "American Legion San Bruno",
+      "url": "https://www.meetup.com/country-line-and-swing-social-san-bruno/events/313839706/",
+      "description": "Come out Monday March 23rd to the American Legion in San Bruno for a line dancing and country swing social!\nAlthough all are welcome, *this is aimed at the more seasoned line and swing dancer.*\n\n**Due",
+      "group": "Country Line and Swing Social! (Improver Dancers) San Bruno",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "hiking",
+      "geoArea": "peninsula"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -4786,6 +4860,19 @@
       "source": "meetup",
       "category": "tech",
       "subcategory": "ai-ml",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "All things software infrastructure",
+      "date": "2026-03-24T02:00:00.000Z",
+      "venue": "Noisebridge",
+      "url": "https://www.meetup.com/noisebridge/events/313628649/",
+      "description": "Bring a laptop if you can.\n\nMeeting format:\n\n* Introductions. Background & goals/interests for the meeting.\n* Lesson or Demo\n* Questions & Discussion\n* Readings & Exercises, for future meetings\n\nFind ",
+      "group": "Noisebridge Hackerspace",
+      "source": "meetup",
+      "category": "tech",
+      "subcategory": "startup",
       "geoArea": "sf"
     },
     {
@@ -4893,15 +4980,15 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "🌎 Hola Amigos! Spanish Language Exchange & Practice ",
-      "date": "2026-03-24T22:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/west-coast-english-meetup-group/events/313843827/",
-      "description": "#\n\n🌍 Práctica Global de Español Hablado (Diaria y Gratuita)\n¡Deja de buscar \"clases de español cerca de mí\" y empieza a practicar ahora mismo!\nBienvenido a nuestra comunidad mundial. Somos profesores",
-      "group": "🚀 International Language Exchange | Online",
+      "title": "🎬  Project Hail Mary -- Metreon (& Late Lunch before)",
+      "date": "2026-03-24T21:00:00.000Z",
+      "venue": "AMC Metreon 16",
+      "url": "https://www.meetup.com/sf-fun-and-active-seniors-over-50/events/313575685/",
+      "description": "🎬 **Project Hail Mary -- Metreon (& Late Lunch before)**\n\n**▪︎** The early buzz is overwhelmingly positive! \"Ryan Gosling Is a shining star in Christopher Miller and Phil Lord’s must-see space odysse",
+      "group": "SF Fun and Active Seniors Over 50 -- music, art, film & more",
       "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
+      "category": "social",
+      "subcategory": "hiking",
       "geoArea": "sf"
     },
     {
@@ -4927,19 +5014,6 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "arts",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "🌍 JUST GUTSY — Solo Travelers Meetup (San Francisco 4PM local time)",
-      "date": "2026-03-24T23:00:00.000Z",
-      "venue": "Vesuvio Cafe",
-      "url": "https://www.meetup.com/just-gutsy-solo-travel-meetups-buddies-cost-splits/events/313642136/",
-      "description": "**No pressure. No plans. Just new friends ✨**\nWhether you’re visiting San Francisco for the first time, just arrived, or simply love meeting curious, open-minded people, this bi-weekly **Just Gutsy** ",
-      "group": "Just Gutsy - Solo Travel Buddies, Meetups & Cost Splits",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
       "geoArea": "sf"
     },
     {
@@ -5002,7 +5076,7 @@
       "source": "meetup",
       "category": "tech",
       "subcategory": "startup",
-      "geoArea": "east-bay"
+      "geoArea": "sf"
     },
     {
       "id": "luma-evt-hfAm2KpfjmAVb2G",
@@ -5044,29 +5118,29 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Art class Tue night, Oakland",
+      "title": "Queer Crush @ Great Western",
       "date": "2026-03-25T01:00:00.000Z",
-      "venue": "4627 Shattuck",
-      "url": "https://www.meetup.com/wooden-fish-art-studio/events/313497077/",
-      "description": "The **first** session is **free.** If you're interested in starting regular long-term classes, you’re welcome to attend, take a look around, experience the class, and decide if it’s right for you.\n\n**",
-      "group": "Wooden Fish Art studio ART CLASSES",
+      "venue": "Great Western Power Company",
+      "url": "https://www.meetup.com/queer-crush-norcal/events/313564756/",
+      "description": "🎟️ free for [@touchstoneclimbing](https://www.instagram.com/touchstoneclimbing/) gym members!\n\n🎫 $20 day pass for non-members (thats a 33% discount on the regular price!)\n\n🧗🏻‍♂️rentals are FREE fo",
+      "group": "Queer Crush Climbing (NorCal)",
       "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
+      "category": "social",
+      "subcategory": "fitness",
       "geoArea": "east-bay"
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "​RAG in the Wild + Java Next - Amber, Valhalla, Loom, Leyden, Babylon, Panama",
+      "title": "Unwind With Us at Rosenblum Cellars 🍷",
       "date": "2026-03-25T01:00:00.000Z",
-      "venue": "Workato",
-      "url": "https://www.meetup.com/eastbayjug/events/313036892/",
-      "description": "The event is a joint effort between the [San Francisco JUG](https://www.meetup.com/sfjava) and [East Bay JUG](https://www.meetup.com/eastbayjug). ⚠️ RSVP via [https://lu.ma/sfjava](https://lu.ma/sfjav",
-      "group": "East Bay  Java User Group",
+      "venue": "Rosenblum Cellars Jack London Square",
+      "url": "https://www.meetup.com/unwind-bay-area-women-entrepreneurs/events/313628466/",
+      "description": "**Our Unwind gatherings usually bring together 20–30 women entrepreneurs.**\n\n**So, if you’ve been wanting to meet more women entrepreneurs in the Bay Area, come join us for a relaxed evening at Rosenb",
+      "group": "Unwind - Bay Area Women Entrepreneurs",
       "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
-      "geoArea": "sf"
+      "category": "social",
+      "subcategory": "happy-hour",
+      "geoArea": "east-bay"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -5118,7 +5192,7 @@
       "source": "meetup",
       "category": "tech",
       "subcategory": "ai-ml",
-      "geoArea": "north-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -5130,7 +5204,7 @@
       "group": "Anthem Music Academy - Music Producers and Artists",
       "source": "meetup",
       "category": "tech",
-      "subcategory": "product-design",
+      "subcategory": "tech-general",
       "geoArea": "east-bay"
     },
     {
@@ -5161,6 +5235,19 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
+      "title": "Mac & Mike's Comedy Night ",
+      "date": "2026-03-25T02:30:00.000Z",
+      "venue": "Barbary Coast",
+      "url": "https://www.meetup.com/barbary-coast/events/313612134/",
+      "description": "Join local San Francisco comedians Mac and Mike as they take over the Barbary Coast SF lounge for a weekly showcase of emerging comedic talent. Every Tuesday from 7-8pm, they'll bring their funniest f",
+      "group": "San Francisco Cannabis Club @ Barbary Coast SF",
+      "source": "meetup",
+      "category": "night-out",
+      "subcategory": "comedy",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
       "title": " Breathing Ecstasy :Tantric and Taoist way.Online and in person",
       "date": "2026-03-25T03:15:00.000Z",
       "venue": "Yoga Society of San Francisco",
@@ -5182,21 +5269,21 @@
       "group": "BayArea Breathwork, Conscious Eating and Living  Circle",
       "source": "meetup",
       "category": "social",
-      "subcategory": "yoga",
+      "subcategory": "social-general",
       "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Ancient Greece in Italy – Magna Graecia Virtual Tour",
-      "date": "2026-03-25T08:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/italy-virtual-tours-3/events/313729087/",
-      "description": "**REGISTRATION REQUIRED!** **[Click here to register](https://us06web.zoom.us/webinar/register/2217723913957/WN_naHxdc1IRhOp3-NlQ2lBgA)**\n\nWhat if you could **experience Ancient Greece… without leavin",
-      "group": "Italy Virtual Tours: Art, Culture and Beauty - San Francisco",
+      "title": "Berkeley Live Stand-Up Comedy Open Mic Free Every Tuesday 830pm",
+      "date": "2026-03-25T03:30:00.000Z",
+      "venue": "The BreakRoom",
+      "url": "https://www.meetup.com/berkeley-live-stand-up-comedy-open-mic-free/events/313645573/",
+      "description": "Join us at Berkeley Live Stand-Up Comedy Open Mic Free for a fun-filled Night Out! Enjoy a night of laughter with hilarious comedy acts while sipping on delicious cocktails during our Cocktails & Happ",
+      "group": "Berkeley Live Stand-Up Comedy Open Mic Free",
       "source": "meetup",
-      "category": "social",
-      "subcategory": "arts",
-      "geoArea": "sf"
+      "category": "night-out",
+      "subcategory": "happy-hour",
+      "geoArea": "east-bay"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -5209,19 +5296,32 @@
       "source": "meetup",
       "category": "tech",
       "subcategory": "ai-ml",
-      "geoArea": "north-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "🚀 Speak English Confidently | Live",
-      "date": "2026-03-25T16:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/west-coast-english-meetup-group/events/313651084/",
-      "description": "## Welcome to our Daily English Meetup!\n\n* **NB! Don't see the EVENT LINK?** Go to [speakduo.com](http://speakduo.com/) to see the full schedule and you can also join the event via a link there (It's ",
-      "group": "🚀 International Language Exchange | Online",
+      "title": "RISE + RUN W/ MORGAN",
+      "date": "2026-03-25T14:00:00.000Z",
+      "venue": "WeWork Office Space & Coworking",
+      "url": "https://www.meetup.com/san-francisco-fitness-meetup-group/events/313650535/",
+      "description": "RISE + RUN is our signature running club; a method designed for both seasoned runners and beginners to train for improved running form, endurance and strength. Running as a group creates community and",
+      "group": "Rise By We San Francisco Running Group",
       "source": "meetup",
       "category": "social",
-      "subcategory": "arts",
+      "subcategory": "fitness",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Marcia Donahue's Exotic Gardens & More Quirky Berkeley- Please Read All!",
+      "date": "2026-03-25T16:00:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/women-walking-berkeleys-beautiful-neighborhoods/events/313807280/",
+      "description": "",
+      "group": "Member-Driven Women Walking Berkeley & Far More!",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "social-general",
       "geoArea": "sf"
     },
     {
@@ -5232,8 +5332,8 @@
       "url": "https://lu.ma/openclaw-hack-day-mar25-2026",
       "description": "",
       "source": "luma",
-      "category": "tech",
-      "subcategory": "tech-general",
+      "category": "social",
+      "subcategory": "social-general",
       "geoArea": "sf"
     },
     {
@@ -5286,19 +5386,6 @@
       "source": "meetup",
       "category": "tech",
       "subcategory": "ai-ml",
-      "geoArea": "north-bay"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "SOLD OUT Wild Iceland Adventure for Women 2026",
-      "date": "2026-03-25T22:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/travel-women/events/307945075/",
-      "description": "***[THIS TRIP IS FULL. PLEASE 2027 OPTIONS ON THE WEBSITE.](https://www.boldspirittravel.com/journeys-1/iceland-women-only-2027)***[ ](https://www.boldspirittravel.com/journeys-1/iceland-women-only-20",
-      "group": "Travel Women: Bold Adventures Near and Far (SF)",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
       "geoArea": "sf"
     },
     {
@@ -5312,19 +5399,6 @@
       "source": "meetup",
       "category": "tech",
       "subcategory": "ai-ml",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "Decks 'n' Dabs with ALEXXII @ Barbary Coast SF",
-      "date": "2026-03-25T23:00:00.000Z",
-      "venue": "Barbary Coast",
-      "url": "https://www.meetup.com/barbary-coast/events/313673287/",
-      "description": "Turn it up and dab it out. Barbary Coast is bringing the bass, the beats, and the deals for a night where the music hits just as hard as the concentrates.\n\nWe're proud to feature **Alexxii** — one of ",
-      "group": "San Francisco Cannabis Club @ Barbary Coast SF",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "fitness",
       "geoArea": "sf"
     },
     {
@@ -5400,7 +5474,7 @@
       "group": "I Wanna Do It But Not Alone",
       "source": "meetup",
       "category": "social",
-      "subcategory": "book-club",
+      "subcategory": "social-general",
       "geoArea": "sf"
     },
     {
@@ -5418,16 +5492,16 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Art & Craft Nights in the Presidio",
+      "title": "Wednesdays BollyX Dance Fitness Class in San Mateo",
       "date": "2026-03-26T01:00:00.000Z",
-      "venue": "Stories Make Us",
-      "url": "https://www.meetup.com/stories-make-us-art-craft-storytelling-workshops/events/313855572/",
-      "description": "**Come on in! Learn about us and our workshops at www.storiesmakeus.org. We look forward to seeing you!**",
-      "group": "Stories Make Us Art & Craft & Storytelling Workshops",
+      "venue": "Motion Arts Center",
+      "url": "https://www.meetup.com/san-mateo-bollywood-dance-meetup-group/events/313661191/",
+      "description": "**COME JOIN THE PARTY!**\n\n**EVERY WEDNESDAY**\n6:00pm - 7:00pm\n\n**CLASS LOCATION:**\nMotion Arts Center\n217 S Claremont St,\nSan Mateo, CA 94401\n\n**PRICE PER PERSON:**\n**New Student 7 Day - 7 Class Intro",
+      "group": "San Mateo Bollywood Dance Meetup",
       "source": "meetup",
-      "category": "social",
-      "subcategory": "arts",
-      "geoArea": "sf"
+      "category": "night-out",
+      "subcategory": "dancing",
+      "geoArea": "peninsula"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -5440,6 +5514,19 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "yoga",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Meditation for Beginners - Isha Kriya (Free Online Webinar)",
+      "date": "2026-03-26T01:00:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/isha-yoga-inn-engineering-san-fransisco-yoga-meditation/events/313842042/",
+      "description": "**To RSVP, please [click here](https://www.innerengineering.com/webinar/meditation-for-beginners).**\nOnce you click on this link, please provide your email address, and you will receive an email with ",
+      "group": "Inner Engineering SF (Isha Yoga & Meditation Classes)",
+      "source": "meetup",
+      "category": "tech",
+      "subcategory": "ai-ml",
       "geoArea": "sf"
     },
     {
@@ -5465,7 +5552,7 @@
       "group": "COME DANCE MARIN + BAY AREA",
       "source": "meetup",
       "category": "social",
-      "subcategory": "dancing",
+      "subcategory": "arts",
       "geoArea": "east-bay"
     },
     {
@@ -5488,6 +5575,45 @@
       "url": "https://www.meetup.com/dogpatchgames/events/313754281/",
       "description": "This event is for everyone! Join in to meet some new people in our great community. We’ll have a ton of fun social and party games to play, and we’ll mix everyone up to play a few games over the whole",
       "group": "Dogpatch Games Board Game Club",
+      "source": "meetup",
+      "category": "night-out",
+      "subcategory": "bars",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Queer Crush @ Movement San Francisco",
+      "date": "2026-03-26T02:00:00.000Z",
+      "venue": "Movement San Francisco",
+      "url": "https://www.meetup.com/queer-crush-norcal/events/313564759/",
+      "description": "🎟️ free for Movement gym members!\n\n🎫 $16 discounted day pass for non-members (half off regular ay pass!)\n\n🧗🏻‍♂️rentals are $5-8 for QC attendees\n\n🎉this is an all levels meet up, so no matter your",
+      "group": "Queer Crush Climbing (NorCal)",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "fitness",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Run and Chug March 25 - Lost Marbles Brewery",
+      "date": "2026-03-26T02:00:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/sf-fun-run/events/313747742/",
+      "description": "",
+      "group": "SF Fun Run",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "fitness",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Live Jazz @ Barbary Coast SF w/ Veotis",
+      "date": "2026-03-26T02:00:00.000Z",
+      "venue": "Barbary Coast",
+      "url": "https://www.meetup.com/barbary-coast/events/313610346/",
+      "description": "Join us every Wednesday for an evening of exceptional jazz with Bay Area native and lounge favorite, [Veotis Latchison](https://www.instagram.com/veotisofthewest?igsh=NTc4MTIwNjQ2YQ==). A regular fixt",
+      "group": "San Francisco Cannabis Club @ Barbary Coast SF",
       "source": "meetup",
       "category": "night-out",
       "subcategory": "bars",
@@ -5547,19 +5673,6 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Brazilian Samba Class",
-      "date": "2026-03-26T02:30:00.000Z",
-      "venue": "Hidden City Ballroom",
-      "url": "https://www.meetup.com/come-dance-marin/events/313662182/",
-      "description": "Energetic, Friendly and Fun- Mary Dollar’s samba dance classes are authentic and accessible to all levels, with an “easy to follow” format for all to enjoy!\n\nGet in the groove, sweat and swing to a va",
-      "group": "COME DANCE MARIN + BAY AREA",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "tech-general",
-      "geoArea": "east-bay"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
       "title": " See Great Photos and Learn from Their Critique! ",
       "date": "2026-03-26T02:30:00.000Z",
       "venue": "Bay Area",
@@ -5569,7 +5682,7 @@
       "source": "meetup",
       "category": "night-out",
       "subcategory": "dancing",
-      "geoArea": "east-bay"
+      "geoArea": "sf"
     },
     {
       "id": "luma-evt-UTzrIDrilasz6AS",
@@ -5594,7 +5707,7 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "networking",
-      "geoArea": "north-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -5621,20 +5734,6 @@
       "category": "tech",
       "subcategory": "startup",
       "geoArea": "sf"
-    },
-    {
-      "id": "partiful-DLFWAdGOOajODoxsKV8o",
-      "title": "Sip & Shop: Women’s History Month",
-      "date": "2026-03-26T23:00:00.000Z",
-      "venue": "Cheeky Bits Sweets · San Francisco, CA",
-      "address": "3 Embarcadero Center, San Francisco, CA 94111",
-      "url": "https://partiful.com/e/DLFWAdGOOajODoxsKV8o",
-      "description": "You’re invited to a Sip & Shop at Cheeky Bits Sweets in honor of Women’s History Month! As a women-owned business, we love to uplift other women-owned brands and are excited to highlight the ones we c",
-      "source": "partiful",
-      "category": "social",
-      "subcategory": "social-general",
-      "geoArea": "sf",
-      "geoVerified": true
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -5760,7 +5859,7 @@
       "description": "",
       "source": "luma",
       "category": "tech",
-      "subcategory": "networking",
+      "subcategory": "tech-general",
       "geoArea": "sf"
     },
     {
@@ -5841,18 +5940,6 @@
       "geoArea": "sf"
     },
     {
-      "id": "luma-evt-BZiGgEgyap0XFE4",
-      "title": "Lenny’s Newsletter Meetup in Milpitas (with free drinks courtesy of Clerk)",
-      "date": "2026-03-27T01:00:00.000Z",
-      "venue": "Big Al's, 27 Ranch Dr, Milpitas, CA 95035, USA",
-      "url": "https://lu.ma/3h47gip0",
-      "description": "",
-      "source": "luma",
-      "category": "social",
-      "subcategory": "happy-hour",
-      "geoArea": "south-bay"
-    },
-    {
       "id": "mu-aHR0cHM6Ly",
       "title": "SF Tech Mixer 2026",
       "date": "2026-03-27T01:00:00.000Z",
@@ -5914,7 +6001,7 @@
       "group": "Golden Gate Gamemakers",
       "source": "meetup",
       "category": "social",
-      "subcategory": "food-drink",
+      "subcategory": "happy-hour",
       "geoArea": "sf"
     },
     {
@@ -5940,21 +6027,34 @@
       "group": "SF Intellectuals Discussion Group",
       "source": "meetup",
       "category": "social",
-      "subcategory": "happy-hour",
+      "subcategory": "social-general",
       "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Creative Women Speed-Friending (Oakland)",
+      "title": "Kingfish Pub & Cafe and Piedmont Ave Run",
       "date": "2026-03-27T01:30:00.000Z",
-      "venue": "Mad Oak",
-      "url": "https://www.meetup.com/gist-irl/events/313643504/",
-      "description": "[🎟️ ](https://app.gistirl.com/event-details/ux5zjcmx7NG7qxvoRgC3)**[Join & Check-in](https://app.gistirl.com/event-details/ux5zjcmx7NG7qxvoRgC3)**\n\nCalling all creative women - artists, founders, des",
-      "group": "Gist IRL",
+      "venue": "Kingfish Pub & Cafe",
+      "url": "https://www.meetup.com/510-run-to-beers/events/313562240/",
+      "description": "Let's go on a short but challenging run from Kingfish to the gate of Mountain View Cemetery and back.\n\nWe'll gather at 6:30pm but won't start running until 6:40pm. We don't keep time of the runners. A",
+      "group": "510 Run to Beers",
       "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
+      "category": "social",
+      "subcategory": "fitness",
       "geoArea": "east-bay"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Queer Crush @ Dogpatch Boulders",
+      "date": "2026-03-27T01:30:00.000Z",
+      "venue": "Dogpatch Boulders",
+      "url": "https://www.meetup.com/queer-crush-norcal/events/313564766/",
+      "description": "🎟️ free for [@touchstoneclimbing](https://www.instagram.com/touchstoneclimbing/) gym members!\n\n🎫 $20 day pass for non-members (thats a 33% discount on the regular price!)\n\n🧗🏻‍♂️rentals are FREE fo",
+      "group": "Queer Crush Climbing (NorCal)",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "fitness",
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -5971,19 +6071,6 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Noche de Español: Cultura, Juegos Y Buena Vibra. Marzo 26",
-      "date": "2026-03-27T01:30:00.000Z",
-      "venue": "Temescal Brewing",
-      "url": "https://www.meetup.com/meet-up-en-espanol/events/313762541/",
-      "description": "Bienvenidos a Noche de Español! Un meet-up relajado y divertido donde la cultura, los juegos y la conversación en español se combinan para crear una experiencia única. Aquí no importa tu nivel de espa",
-      "group": "Meet Up En Español",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "tech-general",
-      "geoArea": "east-bay"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
       "title": "Squash in the Mission (Thursday)",
       "date": "2026-03-27T01:30:00.000Z",
       "venue": "Mission Recreation Center",
@@ -5992,7 +6079,7 @@
       "group": "San Francisco Squash",
       "source": "meetup",
       "category": "social",
-      "subcategory": "food-drink",
+      "subcategory": "happy-hour",
       "geoArea": "sf"
     },
     {
@@ -6047,29 +6134,29 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Evening Japanese Language Exchange",
+      "title": "Take a FUN Improv Class (in-person) - then After Party!",
       "date": "2026-03-27T02:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/jaexchangepaloalto/events/310981411/",
-      "description": "NOW ON ZOOM! Come join us for alternating Japanese and English conversation (change languages every 30 minutes). Topics will change freely, though there will be conversation starters to keep the talki",
-      "group": "Japanese Language Exchange Online (prev. Palo Alto)",
+      "venue": "Leela Improv Theatre",
+      "url": "https://www.meetup.com/thursdayimprovclass/events/313677708/",
+      "description": "Welcome to the fun!!! Here are all the details:\n\nStep 1.) You must register and pay $25 on Eventbrite ([https://thursdayimprovclass.eventbrite.com](https://thursdayimprovclass.eventbrite.com)) to secu",
+      "group": "Thursday Night Drop-in Improv Classes",
       "source": "meetup",
-      "category": "social",
-      "subcategory": "arts",
+      "category": "night-out",
+      "subcategory": "comedy",
       "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Mark Salzman / Iron and Silk 101-108 / Learn English 學英文",
+      "title": "Karaoke + Speed Date | Ages 25-45 (Suggested)\n",
       "date": "2026-03-27T02:00:00.000Z",
-      "venue": "Louis Sutter Playground",
-      "url": "https://www.meetup.com/sf-opera-attendee/events/313677480/",
-      "description": "**2023 04 08**\n\n**___________ Do you want to learn Traditional Chinese / Mandarin?**\n\n**V. 2023 04 08**\n\n**I was born and raised in Taiwan,**\n\n**I operate Traditional Chinese fine,**\n\n**since I had a ",
-      "group": "TextQuilting i libri in Italiano, Francese e Tedesco!",
+      "venue": "Lost And Found",
+      "url": "https://www.meetup.com/bay-area-speed-dating-mixers-matchmaking/events/313409340/",
+      "description": "**SIGN UP LINK **[karaokeandspeeddating.eventbrite.com](karaokeandspeeddating.eventbrite.com)\n\nGet your ticket on Eventbrite to confirm your spot, this event is promoted on other platforms. Walk-ins w",
+      "group": "Bay Area Speed Dating, Mixers & Matchmaking",
       "source": "meetup",
-      "category": "social",
-      "subcategory": "hiking",
-      "geoArea": "east-bay"
+      "category": "night-out",
+      "subcategory": "dating",
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -6081,7 +6168,7 @@
       "group": "BayArea Breathwork, Conscious Eating and Living  Circle",
       "source": "meetup",
       "category": "social",
-      "subcategory": "yoga",
+      "subcategory": "comedy",
       "geoArea": "sf"
     },
     {
@@ -6098,6 +6185,19 @@
       "geoArea": "east-bay"
     },
     {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Friday morning pastry run | Kantine",
+      "date": "2026-03-27T14:30:00.000Z",
+      "venue": "Kantine",
+      "url": "https://www.meetup.com/missionfunruns/events/312930583/",
+      "description": "Join us at Kantine, an amazing scandanavian bakery for a morning run and some morning bun\n\n[Kantine route](https://onthegomap.com/s/ovfq5g3c)\n\nFor now the default meeting location and route will be Cr",
+      "group": "SF Mission Fun Runs",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "fitness",
+      "geoArea": "sf"
+    },
+    {
       "id": "luma-evt-LuUUeqtKK2da9bz",
       "title": "Female Founders Breakfast",
       "date": "2026-03-27T16:00:00.000Z",
@@ -6107,19 +6207,6 @@
       "source": "luma",
       "category": "tech",
       "subcategory": "startup",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "San Polo Venice Virtual Walking Tour – the Real Venice",
-      "date": "2026-03-27T16:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/italy-virtual-tours-3/events/313743418/",
-      "description": "**REGISTRATION REQUIRED!** **[Click here to register](https://us06web.zoom.us/webinar/register/1917729085619/WN_Q25_JsOmRxm5b7jqFD9Gew)**\n\nStep away from the crowds and discover the **most authentic s",
-      "group": "Italy Virtual Tours: Art, Culture and Beauty - San Francisco",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "hiking",
       "geoArea": "sf"
     },
     {
@@ -6236,7 +6323,7 @@
       "group": "Gist IRL",
       "source": "meetup",
       "category": "social",
-      "subcategory": "dating",
+      "subcategory": "arts",
       "geoArea": "sf"
     },
     {
@@ -6339,19 +6426,19 @@
       "group": "COME DANCE MARIN + BAY AREA",
       "source": "meetup",
       "category": "social",
-      "subcategory": "dancing",
+      "subcategory": "arts",
       "geoArea": "east-bay"
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "La Hora Feliz, Viernes en el Muddy Waters Cafe! (NEW location!)",
+      "title": "Drinks First, Laughs Later",
       "date": "2026-03-28T01:00:00.000Z",
-      "venue": "Muddy Waters Coffee House",
-      "url": "https://www.meetup.com/spanish-language-meetup/events/313689424/",
-      "description": "**La Hora Feliz at Muddy Waters Cafe! New location / *Every Friday!***\n===\n\n**NOTES TO NEWCOMERS:**\n\\* Please arrive around 30-40m PAST 6PM if you're NEW to the group. Most of the regulars arrive from",
-      "group": "San Francisco Spanish-Language Meetup",
+      "venue": "242 O'Farrell St",
+      "url": "https://www.meetup.com/humans-over-30/events/313779414/",
+      "description": "Let’s start the night the right way: drinks, laughs, and good humans.\n\nWe’ll meet at **Bartlett Hall (242 O'Farrell St, San Francisco) at 6:00 PM** for a relaxed happy hour. Grab a drink, meet some ne",
+      "group": "Humans over 30",
       "source": "meetup",
-      "category": "social",
+      "category": "night-out",
       "subcategory": "happy-hour",
       "geoArea": "sf"
     },
@@ -6391,8 +6478,8 @@
       "group": "Friday Vegan/Live-food Happy Hour & Dinner with Live Music",
       "source": "meetup",
       "category": "social",
-      "subcategory": "dancing",
-      "geoArea": "north-bay"
+      "subcategory": "food-drink",
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -6435,6 +6522,19 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
+      "title": "Les Copains -- Napa French Discussion Group",
+      "date": "2026-03-28T16:30:00.000Z",
+      "venue": "San Francisco Bay Area",
+      "url": "https://www.meetup.com/lescopains/events/313697102/",
+      "description": "We are meeting via Zoom every Saturday, 9:30-11:00am California time. To receive the Zoom link, which is the same for every meeting, please RSVP and also send your email address to me at lueckegreg@gm",
+      "group": "Les Copains FRENCH Discussion Group",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "language",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
       "title": "Angel Island hike to the top/North Ridge & Sunset loop. 5-6 miles, 850 ft.",
       "date": "2026-03-28T16:45:00.000Z",
       "venue": "Tiburon Ferry Terminal, Tiburon, CA 94920",
@@ -6445,6 +6545,19 @@
       "category": "social",
       "subcategory": "hiking",
       "geoArea": "north-bay"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "March Hike - San Francisco",
+      "date": "2026-03-28T17:00:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/san-francisco-professional-business-women-meetup-group/events/313511879/",
+      "description": "",
+      "group": "Lesbian Professional Women's Hiking Group",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "hiking",
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -6534,7 +6647,7 @@
       "group": "Tech Girls Social",
       "source": "meetup",
       "category": "social",
-      "subcategory": "language",
+      "subcategory": "social-general",
       "geoArea": "sf"
     },
     {
@@ -6549,6 +6662,19 @@
       "category": "tech",
       "subcategory": "product-design",
       "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Brisk Walk & Shop--SW corner Ordway & Marin, Albany, 11a",
+      "date": "2026-03-28T18:00:00.000Z",
+      "venue": "Marin Ave & Ordway St, Albany, CA 94707",
+      "url": "https://www.meetup.com/albany-area-walkers/events/313698261/",
+      "description": "We are a warm and friendly group of walkers who like to get a really good cardio workout. We meet at the South West corner of Ordway and Marin. We walk briskly up to Marin circle, and then continue at",
+      "group": "Albany Area Walkers",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "hiking",
+      "geoArea": "north-bay"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -6574,7 +6700,20 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "hiking",
-      "geoArea": "north-bay"
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "San Francisco CHOCOLATE SALON 2026 - 20th Anniversary Festival",
+      "date": "2026-03-28T18:00:00.000Z",
+      "venue": "San Francisco County Fair Building",
+      "url": "https://www.meetup.com/incredible-food-wine-experiences/events/312395971/",
+      "description": "**The most delicious of California artisan chocolate events, and now in its 20th Anniversary!**\n\nThe **Original and Premier Artisan** Chocolate Show on the West Coast takes place this Spring at the An",
+      "group": "Incredible Food + Wine Experiences for Television",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "arts",
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -6613,19 +6752,6 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "food-drink",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "San Francisco CHOCOLATE SALON 2026 - 20th Anniversary Festival",
-      "date": "2026-03-28T18:00:00.000Z",
-      "venue": "San Francisco County Fair Building",
-      "url": "https://www.meetup.com/sf-travel-addicts/events/312396001/",
-      "description": "**The most delicious of California artisan chocolate events, and now in its 20th Anniversary!**\n\nThe **Original and Premier Artisan** Chocolate Show on the West Coast takes place this Spring at the An",
-      "group": "SF Travel Addicts",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "arts",
       "geoArea": "sf"
     },
     {
@@ -6695,19 +6821,6 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Chocolate Salon Panel: Guided Tasting by the Cacao Muse",
-      "date": "2026-03-28T19:45:00.000Z",
-      "venue": "San Francisco County Fair Building",
-      "url": "https://www.meetup.com/sfba-lgbtq-singles-community/events/313898264/",
-      "description": "New Panel at the 20th Anniversary **SAN FRANCISCO INTERNATIONAL CHOCOLATE SALON & FESTIVAL on Saturday, March 28th**:\n\n***Guided Tasting by the Cacao Muse***\n\nJoin Birgitte Rasine, author of The Cacao",
-      "group": "SFBA LGBTQ Singles Community",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "arts",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
       "title": "Briones Hike (Moderate 7 Miles)",
       "date": "2026-03-28T20:00:00.000Z",
       "venue": "Bay Area",
@@ -6747,32 +6860,6 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Korean for Everyone - Beginners: Free Class & Cultural Meetup",
-      "date": "2026-03-28T20:00:00.000Z",
-      "venue": "1911 Hayes St",
-      "url": "https://www.meetup.com/san-francisco-korean-language-and-culture/events/313700268/",
-      "description": "**Come hang out with us at the San Francisco Korean Culture and Language Meetup Group!**\n\nThis Meetup is for **beginner-level Korean learners**.\nIf you already have a basic understanding of Korean and",
-      "group": "San Francisco Korean Language and Culture",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "arts",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "Meditation for Beginners - Isha Kriya (Free Online Webinar)",
-      "date": "2026-03-28T20:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/isha-yoga-inn-engineering-san-fransisco-yoga-meditation/events/313842268/",
-      "description": "**To RSVP, please [click here](https://www.innerengineering.com/webinar/meditation-for-beginners).**\nOnce you click on this link, please provide your email address, and you will receive an email with ",
-      "group": "Inner Engineering SF (Isha Yoga & Meditation Classes)",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
       "title": "Chocolate Panel: Spice & Sweet, The Rise of Indian Chocolate Makers",
       "date": "2026-03-28T20:30:00.000Z",
       "venue": "San Francisco County Fair Building",
@@ -6781,7 +6868,7 @@
       "group": "The San Francisco Bay Area CHOCOLATE Meetup",
       "source": "meetup",
       "category": "tech",
-      "subcategory": "product-design",
+      "subcategory": "tech-general",
       "geoArea": "sf"
     },
     {
@@ -6794,20 +6881,7 @@
       "group": "Incredible Food + Wine Experiences for Television",
       "source": "meetup",
       "category": "tech",
-      "subcategory": "product-design",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "Chocolate Panel: Spice & Sweet, The Rise of Indian Chocolate Makers",
-      "date": "2026-03-28T20:30:00.000Z",
-      "venue": "San Francisco County Fair Building",
-      "url": "https://www.meetup.com/sfba-lgbtq-singles-community/events/313730234/",
-      "description": "New Panel at the 20th Anniversary SAN FRANCISCO INTERNATIONAL CHOCOLATE SALON & FESTIVAL:\n\n***Spice & Sweet, The Rise of Indian Chocolate Makers***\n\nA moderated panel of Bay Area Indian-heritage choco",
-      "group": "SFBA LGBTQ Singles Community",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "product-design",
+      "subcategory": "tech-general",
       "geoArea": "sf"
     },
     {
@@ -6845,7 +6919,7 @@
       "group": "The San Francisco Bay Area CHOCOLATE Meetup",
       "source": "meetup",
       "category": "social",
-      "subcategory": "arts",
+      "subcategory": "language",
       "geoArea": "sf"
     },
     {
@@ -6858,20 +6932,7 @@
       "group": "Incredible Food + Wine Experiences for Television",
       "source": "meetup",
       "category": "social",
-      "subcategory": "arts",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "Chocolate Panel: Flavor Lineage, Asian American Perspectives in Fine Chocolate",
-      "date": "2026-03-28T21:15:00.000Z",
-      "venue": "San Francisco County Fair Building",
-      "url": "https://www.meetup.com/30-44yrsold-foradventures-friendships-fun/events/313590068/",
-      "description": "New Panel at the 20th Anniversary SAN FRANCISCO INTERNATIONAL CHOCOLATE SALON & FESTIVAL:\n\n***Flavor Lineage, Asian American Perspectives in Fine Chocolate***\n\nJoin local award winning Asian American ",
-      "group": "30-44 Yrs Old for Adventures, Friendships, & Fun",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "arts",
+      "subcategory": "language",
       "geoArea": "sf"
     },
     {
@@ -6915,6 +6976,19 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
+      "title": "Brazilian Samba Class",
+      "date": "2026-03-29T00:30:00.000Z",
+      "venue": "Hidden City Ballroom",
+      "url": "https://www.meetup.com/come-dance-marin/events/313705244/",
+      "description": "Energetic, Friendly and Fun- Mary Dollar’s samba dance classes are authentic and accessible to all levels, with an “easy to follow” format for all to enjoy!\n\nGet in the groove, sweat and swing to a va",
+      "group": "COME DANCE MARIN + BAY AREA",
+      "source": "meetup",
+      "category": "tech",
+      "subcategory": "tech-general",
+      "geoArea": "east-bay"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
       "title": "Ladies Game Night! Card games, party games, and more!",
       "date": "2026-03-29T01:00:00.000Z",
       "venue": "Bay Area",
@@ -6954,15 +7028,41 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Wittgenstein, Socrates, & AI",
-      "date": "2026-03-29T02:00:00.000Z",
-      "venue": "The Commons",
-      "url": "https://www.meetup.com/renegadephilosophers/events/313788770/",
-      "description": "RENEGADES RETURNS.\n\nFolks, I'm happy to return with a fruitful discussion about, among other things, chairs. Specifically we will be discussing the relationship between Socratic inquiry, Wittgenstein'",
-      "group": "Renegade Philosophers",
+      "title": "Secret Wine Bar",
+      "date": "2026-03-29T01:30:00.000Z",
+      "venue": "San Francisco Wine School",
+      "url": "https://www.meetup.com/palo-alto-blind-wine-society/events/313784684/",
+      "description": "🍷 Secret Wine Bar \\| Blind Wine Society Night\n\nPalo Alto Blind Wine Society — Monthly Tradition\n\nSome of the best wine experiences aren’t advertised.\nYou just have to know where to go.\n\nOnce a month,",
+      "group": "Palo Alto Blind Wine Society",
       "source": "meetup",
       "category": "tech",
       "subcategory": "ai-ml",
+      "geoArea": "peninsula"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Stand-Up Comedy Showcase: “Acidic Laughs” @Alpha Brewing Co",
+      "date": "2026-03-29T02:00:00.000Z",
+      "venue": "Alpha Acid Brewing Co",
+      "url": "https://www.meetup.com/bay-area-s-best-stand-up/events/313790192/",
+      "description": "\"Acidic Laughs @Alpha Acid Brewing Co\" is the Newest and Hottest Comedy Show in the Peninsula. The Bubbly is pouring, the kegs are unloading, and the laughs are echoing through this very intimate spac",
+      "group": "Bay Area’s Best Stand-Up",
+      "source": "meetup",
+      "category": "night-out",
+      "subcategory": "club",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Mac n` Mike, on Saturday Night",
+      "date": "2026-03-29T02:30:00.000Z",
+      "venue": "Barbary Coast",
+      "url": "https://www.meetup.com/barbary-coast/events/313613836/",
+      "description": "Join local San Francisco comedians Mac and Mike as they take over the Barbary Coast SF lounge for a weekly showcase of emerging comedic talent. Every Saturday from 7:30PM -8:30PM, they'll bring their ",
+      "group": "San Francisco Cannabis Club @ Barbary Coast SF",
+      "source": "meetup",
+      "category": "night-out",
+      "subcategory": "comedy",
       "geoArea": "sf"
     },
     {
@@ -6980,7 +7080,7 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Sweeney Milagra Mori BDay Loop (Hard) - 13mi 2523ft EG w/10.9mi opt 7AM start",
+      "title": "Sweeney MilagraMori BDay Loop (Hard) -13mi 2523ft EG w/11mi opt 7 or 8:30a start",
       "date": "2026-03-29T14:00:00.000Z",
       "venue": "Bay Area",
       "url": "https://www.meetup.com/ushiking-bayarea/events/313825439/",
@@ -7016,6 +7116,32 @@
       "category": "social",
       "subcategory": "hiking",
       "geoArea": "north-bay"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Hot Girls Walking for Palestine 🇵🇸❤️‍🔥",
+      "date": "2026-03-29T16:00:00.000Z",
+      "venue": "Jaffa Coffee Roasters",
+      "url": "https://www.meetup.com/bay-area-active-social-20s-30s/events/313615488/",
+      "description": "Real hot girls know that collective change and meaningful, intentional community is the only path to liberation 💅🏽\n\nGirlhood is precious—there’s a reason we yearn for and keep returning to it. We ne",
+      "group": "Bay Area Active & Social - 20s, 30s & 40s",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "hiking",
+      "geoArea": "east-bay"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Sunday 9a Walk McLaughlin Eastshore Park at the Berkeley Marina",
+      "date": "2026-03-29T16:00:00.000Z",
+      "venue": "Marina Boulevard",
+      "url": "https://www.meetup.com/albany-area-walkers/events/313714679/",
+      "description": "COVID NOTE: Please be fully vaccinated against COVID-19. Masking is optional.\n\nPlease arrive a bit early as we leave promptly at 9:00a.\n\nThis is a 70 minute mostly level loop with options (some return",
+      "group": "Albany Area Walkers",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "hiking",
+      "geoArea": "east-bay"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -7058,19 +7184,6 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Sunday Yoga in the Park: Willard Park Yoga Collective",
-      "date": "2026-03-29T17:00:00.000Z",
-      "venue": "Willard Park",
-      "url": "https://www.meetup.com/bay-area-outdoor-yoga/events/313715340/",
-      "description": "Join the Willard Park Yoga Collective every Monday, Tuesday, Wednesday, Thursday, and Sunday at Willard Park in Berkeley! Friday online!\n\nIntegrated Hatha Flow classes are based on classical Hatha, mi",
-      "group": "Willard Park Yoga Collective",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
-      "geoArea": "east-bay"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
       "title": "Sunday Morning Dynamic Vinyasa Yoga Flow in the Park with Diana",
       "date": "2026-03-29T17:00:00.000Z",
       "venue": "Cedar Rose Park",
@@ -7080,6 +7193,19 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "yoga",
+      "geoArea": "east-bay"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Sunday Yoga in the Park: Willard Park Yoga Collective",
+      "date": "2026-03-29T17:00:00.000Z",
+      "venue": "Willard Park",
+      "url": "https://www.meetup.com/bay-area-outdoor-yoga/events/313715340/",
+      "description": "Join the Willard Park Yoga Collective every Monday, Tuesday, Wednesday, Thursday, and Sunday at Willard Park in Berkeley! Friday online!\n\nIntegrated Hatha Flow classes are based on classical Hatha, mi",
+      "group": "Willard Park Yoga Collective",
+      "source": "meetup",
+      "category": "tech",
+      "subcategory": "ai-ml",
       "geoArea": "east-bay"
     },
     {
@@ -7109,18 +7235,17 @@
       "geoArea": "sf"
     },
     {
-      "id": "partiful-mfjGFTRVAEQJDQTOu3wu",
-      "title": "Park Hop Collective",
-      "date": "2026-03-29T18:00:00.000Z",
-      "venue": "The Dairy at Sports Basement · San Francisco, CA",
-      "address": "610 Old Mason St, San Francisco, CA 94129",
-      "url": "https://partiful.com/e/mfjGFTRVAEQJDQTOu3wu",
-      "description": "Park Hop Nation started as a simple love for Disney parks — just a page sharing the magic, the stories, the history, and the fandom culture we couldn’t get enough of.\n\nOver time, it grew into a commun",
-      "source": "partiful",
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Sundays BollyX Dance Fitness Class in San Mateo",
+      "date": "2026-03-29T18:30:00.000Z",
+      "venue": "Motion Arts Center",
+      "url": "https://www.meetup.com/san-mateo-bollywood-dance-meetup-group/events/313716748/",
+      "description": "**EVERY SUNDAY**\n11:30am - 12:30pm\n\n**CLASS LOCATION:**\nMotion Arts Center\n217 S Claremont St,\nSan Mateo, CA 94401\n\n**PRICE PER PERSON:**\n**New Student 7 Day - 7 Class Intro Pass: $69** (Save up to $1",
+      "group": "San Mateo Bollywood Dance Meetup",
+      "source": "meetup",
       "category": "social",
-      "subcategory": "arts",
-      "geoArea": "sf",
-      "geoVerified": true
+      "subcategory": "fitness",
+      "geoArea": "peninsula"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -7197,7 +7322,7 @@
       "group": "Bay Area Millennials and Gen Z Meetup Group",
       "source": "meetup",
       "category": "social",
-      "subcategory": "food-drink",
+      "subcategory": "happy-hour",
       "geoArea": "east-bay"
     },
     {
@@ -7210,7 +7335,7 @@
       "group": "Live Jazz (& Blues) Meetup Group",
       "source": "meetup",
       "category": "social",
-      "subcategory": "food-drink",
+      "subcategory": "happy-hour",
       "geoArea": "east-bay"
     },
     {
@@ -7228,6 +7353,19 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
+      "title": "Wine Tasting Party at Historic Winery for Single Professionals, 30s/40s",
+      "date": "2026-03-29T22:00:00.000Z",
+      "venue": "William Welch Wines Tasting Room",
+      "url": "https://www.meetup.com/palo-alto-champagne-and-wine-meetup-group/events/313622628/",
+      "description": "Meet single professionals, 30s/40s, who appreciate fine wine at a lovely winery. This fun venue is half museum and half winery! Dress to impress. Sunday, March 29, 2026, 3-5pm.\n\n**[DISCOUNT TICKETS](h",
+      "group": "Palo Alto Champagne and Wine Meetup Group",
+      "source": "meetup",
+      "category": "night-out",
+      "subcategory": "dating",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
       "title": "Social Mixer (Art, Anime, TCG, Music)",
       "date": "2026-03-29T23:00:00.000Z",
       "venue": "MintPress Art Studio & Gift Shop",
@@ -7236,7 +7374,7 @@
       "group": "MintPress Creative Hub: Art, Music, Anime and TCGs!",
       "source": "meetup",
       "category": "social",
-      "subcategory": "dating",
+      "subcategory": "arts",
       "geoArea": "east-bay"
     },
     {
@@ -7249,7 +7387,7 @@
       "group": "Noisebridge Hackerspace",
       "source": "meetup",
       "category": "social",
-      "subcategory": "dancing",
+      "subcategory": "arts",
       "geoArea": "sf"
     },
     {
@@ -7267,6 +7405,19 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
+      "title": "QUEER & WOMEN's ALL OUT COMEDY Open Mic!",
+      "date": "2026-03-30T01:30:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/whole-bay-area-lesbians-over-50/events/313754372/",
+      "description": "",
+      "group": "LezBayIns: Lesbians Around The Bay Over 50",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "comedy",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
       "title": "Indoor Soccer - Every Sunday",
       "date": "2026-03-30T06:00:00.000Z",
       "venue": "Bay Area",
@@ -7276,6 +7427,19 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "fitness",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Learn How To Instantly Improve Your Street Photography With Composition",
+      "date": "2026-03-31T00:00:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/san-jose-photography-community/events/313910624/",
+      "description": "This meetup is available for our photo community's monthly members\n**➡️MORE INFO Become A Member → [https://www.shutterobi.com/join](https://www.shutterobi.com/join)**\nEnjoy unlimited community meetup",
+      "group": "San Jose Photography Community",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "arts",
       "geoArea": "sf"
     },
     {
@@ -7379,18 +7543,6 @@
       "geoArea": "sf"
     },
     {
-      "id": "luma-evt-raWEfJJNgXZCuoo",
-      "title": "Women in AI: Bay Area Leaders, Funders, & Operators | Panel + Happy Hour",
-      "date": "2026-04-01T00:30:00.000Z",
-      "venue": "San Francisco, CA",
-      "url": "https://lu.ma/lfxtxm4q",
-      "description": "",
-      "source": "luma",
-      "category": "night-out",
-      "subcategory": "happy-hour",
-      "geoArea": "sf"
-    },
-    {
       "id": "mu-aHR0cHM6Ly",
       "title": "Fireside Chat in San Francisco: Column Stores & the Evolution of Observability",
       "date": "2026-04-01T00:30:00.000Z",
@@ -7477,8 +7629,34 @@
       "group": "Live Jazz (& Blues) Meetup Group",
       "source": "meetup",
       "category": "social",
-      "subcategory": "dancing",
+      "subcategory": "happy-hour",
       "geoArea": "east-bay"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Mac & Mike's Comedy Night ",
+      "date": "2026-04-01T02:30:00.000Z",
+      "venue": "Barbary Coast",
+      "url": "https://www.meetup.com/barbary-coast/events/313612150/",
+      "description": "Join local San Francisco comedians Mac and Mike as they take over the Barbary Coast SF lounge for a weekly showcase of emerging comedic talent. Every Tuesday from 7-8pm, they'll bring their funniest f",
+      "group": "San Francisco Cannabis Club @ Barbary Coast SF",
+      "source": "meetup",
+      "category": "night-out",
+      "subcategory": "comedy",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "☀️ AM Cross-train: Strength training (virtual)",
+      "date": "2026-04-01T13:30:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/trail-running-group/events/313837615/",
+      "description": "",
+      "group": "🌲TRAIL RUNNING GROUP (w/ race/x-training, ☕️ socials)",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "social-general",
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -7534,6 +7712,19 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
+      "title": "Zizek Afterparty",
+      "date": "2026-04-02T02:00:00.000Z",
+      "venue": "Afterwork Bar",
+      "url": "https://www.meetup.com/renegadephilosophers/events/313805753/",
+      "description": "We will have some drinks and discuss what the hell Zizek was talking about the previous night, and so on!\n\\*sniff\\*",
+      "group": "Renegade Philosophers",
+      "source": "meetup",
+      "category": "night-out",
+      "subcategory": "happy-hour",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
       "title": "April's Full Moon with the Pryamid and Palace ",
       "date": "2026-04-02T02:00:00.000Z",
       "venue": "Bay Area",
@@ -7547,6 +7738,19 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
+      "title": "April Fool's Comedy Show: Laughs @The Lariat Tavern",
+      "date": "2026-04-02T02:30:00.000Z",
+      "venue": "The Lariat Tavern",
+      "url": "https://www.meetup.com/bay-area-s-best-stand-up/events/313894588/",
+      "description": "APRIL FOOL'S But this Comedy Show Ain't No Joke!\n\nStand-Up Comedy Returns to The Lariat Tavern, Wednesday, April 1st for this SPECIAL EVENT! Welcome to one of the best Stand-Up Comedy Shows in the Pen",
+      "group": "Bay Area’s Best Stand-Up",
+      "source": "meetup",
+      "category": "night-out",
+      "subcategory": "comedy",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
       "title": "HBase Next & The Cloud-Native Future: A Strategy Session",
       "date": "2026-04-02T17:00:00.000Z",
       "venue": "Bay Area",
@@ -7556,7 +7760,7 @@
       "source": "meetup",
       "category": "tech",
       "subcategory": "ai-ml",
-      "geoArea": "south-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -7573,28 +7777,28 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Thomas Nagel - What is it Like to be a Bat?",
-      "date": "2026-04-03T01:00:00.000Z",
-      "venue": "The Embassy Network",
-      "url": "https://www.meetup.com/sf-philosophy-reading-group/events/313863675/",
-      "description": "For this session, we will be reading Thomas Nagel's seminal paper on consciousness: \"What is it Like to Be a Bat?\".\n\nNagel begins by challenging the idea that that materialism and physicalism can suff",
-      "group": "San Francisco Philosophy Reading Group",
+      "title": "FOOLS RUSH IN | Singles Speed Dating Ages 25-45\n",
+      "date": "2026-04-03T02:00:00.000Z",
+      "venue": "Bottoms Up Bar & Lounge",
+      "url": "https://www.meetup.com/bay-area-speed-dating-mixers-matchmaking/events/313755019/",
+      "description": "**SIGN UP LINK **\n\n[FoolsSpeedDating.eventbrite.com](FoolsSpeedDating.eventbrite.com)\n\n**Get your ticket on Eventbrite to confirm your spot, this event is promoted on other platforms. Walk-ins welcome",
+      "group": "Bay Area Speed Dating, Mixers & Matchmaking",
       "source": "meetup",
-      "category": "social",
-      "subcategory": "book-club",
+      "category": "night-out",
+      "subcategory": "dating",
       "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Agentic Search with Tavily - AI Build & Learn #2",
-      "date": "2026-04-03T19:00:00.000Z",
+      "title": "Mini-Meetup:  First Friday Music and More at Windchaser Winery",
+      "date": "2026-04-03T22:30:00.000Z",
       "venue": "Bay Area",
-      "url": "https://www.meetup.com/ai-builders-and-learners-sf/events/313466524/",
-      "description": "Welcome to **AI Build & Learn** a weekly AI engineering stream where we pick a new topic and learn by building together.\n\n​This episode covers **Agentic Search with Tavily**. Tavily is a search API bu",
-      "group": "AI Builders and Learners SF",
+      "url": "https://www.meetup.com/east-bay-over-60-social-club-meetup-group/events/313661444/",
+      "description": "",
+      "group": "East Bay Over-60 Social Group",
       "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
+      "category": "social",
+      "subcategory": "happy-hour",
       "geoArea": "sf"
     },
     {
@@ -7634,7 +7838,20 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "hiking",
-      "geoArea": "north-bay"
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Hike Angel Island",
+      "date": "2026-04-04T16:30:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/senior-walkabouters/events/313878186/",
+      "description": "",
+      "group": "Senior Walkabouters & Adventure Group   --   \"SWAG\"",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "hiking",
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -7648,6 +7865,19 @@
       "category": "tech",
       "subcategory": "ai-ml",
       "geoArea": "east-bay"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Bike ride in Lafayette",
+      "date": "2026-04-04T17:00:00.000Z",
+      "venue": "Lafayette, CA",
+      "url": "https://www.meetup.com/easy-rider-bicycling-group/events/313823950/",
+      "description": "Join us for a refreshing, easy-to-moderate 20-mile ride on Saturday, April 4, at 10:00 AM through beautiful Lafayette and Moraga. We’ll start at the Lafayette Community Center (500 St. Mary’s Rd), hop",
+      "group": "Easy Rider Bicycling Group",
+      "source": "meetup",
+      "category": "tech",
+      "subcategory": "ai-ml",
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -7676,33 +7906,6 @@
       "geoArea": "sf"
     },
     {
-      "id": "partiful-BPPexNRbyU9iE9AhJmNb",
-      "title": "EAT ME! Artisan Food Fest",
-      "date": "2026-04-04T18:00:00.000Z",
-      "venue": "The Box SF · San Francisco, CA",
-      "address": "1069 Howard St, San Francisco, CA 94103",
-      "url": "https://partiful.com/e/BPPexNRbyU9iE9AhJmNb",
-      "description": "Join us at our historic venue on April 4-5 for an Easter edition of EAT ME! Artisan Food Fest - a delicious monthly event held at The Box SF!\n\nWe're opening up our one-of-a-kind event space & antique ",
-      "source": "partiful",
-      "category": "social",
-      "subcategory": "food-drink",
-      "geoArea": "sf",
-      "geoVerified": true
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "E-bike Tour In Half Moon Bay",
-      "date": "2026-04-04T18:00:00.000Z",
-      "venue": "Half Moon Bay, CA",
-      "url": "https://www.meetup.com/womens-50-group-travel-and-hiking-trips-solo-welcome/events/313675981/",
-      "description": "Come ride Half Moon's Bay's heart stopping ocean scenic and historic downtown tour. Ride to all the breathtaking sights, both scenic and historic. Enjoy Half Moon Bay's natural beauty and see the whol",
-      "group": "Wanderlust Women 50+ Active Hike & Bike Trips-Solo welcome!",
-      "source": "meetup",
-      "category": "night-out",
-      "subcategory": "club",
-      "geoArea": "peninsula"
-    },
-    {
       "id": "mu-aHR0cHM6Ly",
       "title": "Dodgeball/Sloshball @ San Leandro Marina Park (San Leandro)",
       "date": "2026-04-04T18:30:00.000Z",
@@ -7712,7 +7915,7 @@
       "group": "Bay Area Millennials and Gen Z Meetup Group",
       "source": "meetup",
       "category": "social",
-      "subcategory": "happy-hour",
+      "subcategory": "food-drink",
       "geoArea": "north-bay"
     },
     {
@@ -7727,6 +7930,19 @@
       "category": "social",
       "subcategory": "hiking",
       "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Senior Salon – Artists, Musicians, Writers, and Entrepreneurs",
+      "date": "2026-04-04T19:00:00.000Z",
+      "venue": "Northbrae Community Church",
+      "url": "https://www.meetup.com/senior-salon-artist-writer-musician-entrepreneur/events/313789653/",
+      "description": "**NEW FORMAT:**\n**Meet a group of a dozen or more of your fellow talented seniors.** Each presenter will have five minutes or so, to share their art, music, or entrepreneurial journey with the group -",
+      "group": "Senior Salon: Artists/Writers/Musicians/Entrepreneurs",
+      "source": "meetup",
+      "category": "tech",
+      "subcategory": "ai-ml",
+      "geoArea": "east-bay"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -7752,6 +7968,32 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "fitness",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "BREAK DANCE x HIIT Work Out - ALL LEVELS!!!",
+      "date": "2026-04-04T20:00:00.000Z",
+      "venue": "Jack London",
+      "url": "https://www.meetup.com/hiitmeisteroakland/events/313787025/",
+      "description": "**Combining a variety of TopRock break dance moves in the format of HIIT training, this class will be like no other you have taken! Specifically created with non-break dancers in mind, this class is f",
+      "group": "Break Dance x HIIT Workouts in Oakland",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "happy-hour",
+      "geoArea": "east-bay"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": " Spring Gal Pals: Creative Speed-Friending (Oakland)",
+      "date": "2026-04-04T21:00:00.000Z",
+      "venue": "Mad Oak",
+      "url": "https://www.meetup.com/gist-irl/events/313643504/",
+      "description": "[🎟️ ](https://app.gistirl.com/event-details/ux5zjcmx7NG7qxvoRgC3)**[Join & Check-in](https://app.gistirl.com/event-details/ux5zjcmx7NG7qxvoRgC3)**\n\nCalling all creative women - hobbyists, artists, fo",
+      "group": "Gist IRL",
+      "source": "meetup",
+      "category": "tech",
+      "subcategory": "ai-ml",
       "geoArea": "east-bay"
     },
     {
@@ -7778,7 +8020,7 @@
       "source": "meetup",
       "category": "tech",
       "subcategory": "ai-ml",
-      "geoArea": "east-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -7834,6 +8076,32 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
+      "title": "☀️Family Sundays: Brisk Bay Trail Walk/Run",
+      "date": "2026-04-05T16:30:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/trail-running-group/events/313812831/",
+      "description": "",
+      "group": "🌲TRAIL RUNNING GROUP (w/ race/x-training, ☕️ socials)",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "hiking",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Tarp in the Park - Misfit Bunny Edition 🏳️‍⚧️🐰🪺🏳️‍🌈",
+      "date": "2026-04-05T18:00:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/queermisfits/events/313777496/",
+      "description": "",
+      "group": "Queer Misfits",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "outdoors",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
       "title": "Giants game with a Valkyries jersey give away",
       "date": "2026-04-05T20:00:00.000Z",
       "venue": "Oracle Park",
@@ -7868,7 +8136,7 @@
       "group": "irish music trad session",
       "source": "meetup",
       "category": "social",
-      "subcategory": "happy-hour",
+      "subcategory": "social-general",
       "geoArea": "sf"
     },
     {
@@ -7881,20 +8149,7 @@
       "group": "Irish Dance - San Francisco Bay Area",
       "source": "meetup",
       "category": "social",
-      "subcategory": "dancing",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "UGANDA – 9 Days Murchison Falls, Big 5, Chimps & Gorillas Trekking",
-      "date": "2026-04-06T02:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/san-francisco-bucket-list-group-travel/events/312816245/",
-      "description": "Check your bucket list with this amazing Safari which is tailored to give you a feel of five of Uganda’s Wild Parks, with this you are assured of viewing a number of animals which include the Zebras o",
-      "group": "San Francisco - Bucket List Group Travel",
-      "source": "meetup",
-      "category": "night-out",
-      "subcategory": "happy-hour",
+      "subcategory": "arts",
       "geoArea": "sf"
     },
     {
@@ -7951,19 +8206,6 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Travel Photography: Capturing the Moment with Rachel Watts",
-      "date": "2026-04-07T17:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/san-jose-bold-travel-women-explore-more/events/313749568/",
-      "description": "Ready to take better photos on your next trip?\n\nYour teacher, Rachel Watts, is a professional photographer and has taken photos for us (Bold Spirit Travel) on many of our adventures.\n\nShe's the best!\n",
-      "group": "San Jose Bold Travel Women Explore More",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
       "title": "✨FREE 🎯{HER} Networking Master Class🎯",
       "date": "2026-04-07T20:00:00.000Z",
       "venue": "Bay Area",
@@ -7977,16 +8219,16 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "OpenOakland - Civic Tech for the Community ",
-      "date": "2026-04-08T01:30:00.000Z",
-      "venue": "City Hall, Hearing Room 3",
-      "url": "https://www.meetup.com/openoakland/events/313752100/",
-      "description": "Join us for the monthly OpenOakland meetup. This event will bring together professionals, enthusiasts, and experts passionate about utilizing data to drive positive change in Oakland.\n\n**Pizza will be",
-      "group": "OpenOakland",
+      "title": "Walk and Talk",
+      "date": "2026-04-08T01:00:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/menlo-park-womens-support-meetup-group/events/313070822/",
+      "description": "",
+      "group": "Menlo Park Area Women Better than 50",
       "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
-      "geoArea": "east-bay"
+      "category": "social",
+      "subcategory": "hiking",
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -8040,6 +8282,19 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
+      "title": "Freekeh on 3126 16th St",
+      "date": "2026-04-09T01:00:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/mission-district-girlfriends/events/313387661/",
+      "description": "",
+      "group": "Mission District Girlfriends",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "social-general",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
       "title": "Multi-Media Presentation with Percussionist John Santos",
       "date": "2026-04-09T01:30:00.000Z",
       "venue": "Museum of the African Diaspora",
@@ -8048,20 +8303,7 @@
       "group": "Live Jazz (& Blues) Meetup Group",
       "source": "meetup",
       "category": "social",
-      "subcategory": "dancing",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "Every Second Wednesday, IN PERSON, Esperanto Conversation in San Francisco",
-      "date": "2026-04-09T02:00:00.000Z",
-      "venue": "1428 HAIGHT Patio Cafe & Crepery",
-      "url": "https://www.meetup.com/esperanto-san-francisco/events/313862736/",
-      "description": "DON'T FORGET!!!\n\nOn the **second Wednesday of the month**, the San Francisco conversation group meets **IN PERSON** at the **[Patio Café & Creperie](https://1428haight.com/)** (1428 Haight Strato, SF,",
-      "group": "Esperanto San Francisco (SFERO)",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
+      "subcategory": "happy-hour",
       "geoArea": "sf"
     },
     {
@@ -8075,7 +8317,7 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "arts",
-      "geoArea": "east-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -8088,7 +8330,7 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "dancing",
-      "geoArea": "east-bay"
+      "geoArea": "sf"
     },
     {
       "id": "luma-evt-4AVqxABgsPGtLdk",
@@ -8126,7 +8368,7 @@
       "source": "meetup",
       "category": "night-out",
       "subcategory": "dating",
-      "geoArea": "south-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -8139,7 +8381,7 @@
       "source": "meetup",
       "category": "night-out",
       "subcategory": "dating",
-      "geoArea": "south-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -8156,15 +8398,15 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Portugal Slowcation! - Apr 2026",
+      "title": "Advanced Degrees Mixer for Single Professionals with a Doctorate or Masters",
       "date": "2026-04-10T02:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/san-francisco-outdoor-adventure-meetup/events/307570868/",
-      "description": "**[PORTUGAL SLOWCATION!](https://globe-drifters.com/trip/portugal-slowcation/)**\n\n**• Dates:** April 9 - 19, 2026 *(11 days / 10 nights)*\n**• Cost:** $4450 *(per person, excluding flights)*\n**• Single",
-      "group": "San Francisco Outdoor Adventure Meetup",
+      "venue": "DACHA Kitchen & Bar",
+      "url": "https://www.meetup.com/palo-alto-champagne-and-wine-meetup-group/events/313731971/",
+      "description": "Meet new single friends with a Doctorate or Masters Degree at a lovely SF venue! Our FUN Mixer Game makes it EASY to connect. Adults of all ages welcome. Dress to impress. Thursday, April 9, 2026, 7-9",
+      "group": "Palo Alto Champagne and Wine Meetup Group",
       "source": "meetup",
       "category": "night-out",
-      "subcategory": "happy-hour",
+      "subcategory": "dating",
       "geoArea": "sf"
     },
     {
@@ -8178,7 +8420,7 @@
       "source": "meetup",
       "category": "night-out",
       "subcategory": "dating",
-      "geoArea": "south-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -8191,7 +8433,7 @@
       "source": "meetup",
       "category": "night-out",
       "subcategory": "dating",
-      "geoArea": "south-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -8203,7 +8445,7 @@
       "group": "! !Outdoor and Indoor Adventure in South Bay!! Come Join Us!",
       "source": "meetup",
       "category": "social",
-      "subcategory": "dating",
+      "subcategory": "networking",
       "geoArea": "sf"
     },
     {
@@ -8217,7 +8459,33 @@
       "source": "meetup",
       "category": "night-out",
       "subcategory": "dating",
-      "geoArea": "south-bay"
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Ohlone Wilderness Trail Backpacking",
+      "date": "2026-04-10T14:00:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/sanfranciscobay/events/313836194/",
+      "description": "",
+      "group": "San Francisco Bay Chapter of the Sierra Club",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "hiking",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Wrestling at the Beach",
+      "date": "2026-04-10T17:00:00.000Z",
+      "venue": "Ocean Beach",
+      "url": "https://www.meetup.com/san-francisco-beach-wrestling-club/events/313643531/",
+      "description": "**Please do not attend without RSVP as we need your agreement to the release and waiver of liability below.**\n\nAny skill level is welcome (even if you’ve never done Beach Wrestling before or if you ha",
+      "group": "San Francisco Beach Wrestling Club",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "fitness",
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -8269,7 +8537,7 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "hiking",
-      "geoArea": "north-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -8307,22 +8575,8 @@
       "group": "Video Game Book Club - San Francisco",
       "source": "meetup",
       "category": "social",
-      "subcategory": "games",
+      "subcategory": "happy-hour",
       "geoArea": "sf"
-    },
-    {
-      "id": "partiful-FwDfvkU06sq8SUu5KIum",
-      "title": "Figure Drawing Workshop",
-      "date": "2026-04-11T20:00:00.000Z",
-      "venue": "African American Art & Culture Complex · San Francisco, CA",
-      "address": "762 Fulton St, San Francisco, CA 94102",
-      "url": "https://partiful.com/e/FwDfvkU06sq8SUu5KIum",
-      "description": "Free Live Figure Drawing Workshop\n\nJoin us for an invigorating free live figure drawing workshop that promises to unleash your creativity and enhance your artistic skills! This is a unique opportunity",
-      "source": "partiful",
-      "category": "social",
-      "subcategory": "arts",
-      "geoArea": "sf",
-      "geoVerified": true
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -8349,19 +8603,6 @@
       "category": "social",
       "subcategory": "hiking",
       "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "Language and Cultural Exchange Event! Berkeley! April  11th @ Cellarmaker",
-      "date": "2026-04-11T22:00:00.000Z",
-      "venue": "Cellarmaker Brewing Company",
-      "url": "https://www.meetup.com/eastbaylanguageexchange/events/313754252/",
-      "description": "Welcome!\nParticipate with us on Saturday for a cultural and language exchange. This event will be hosted by native Spanish speakers, however, all languages are welcome!\nSpend your Saturday afternoon c",
-      "group": "Berkeley/Oakland International Language Exchange",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "arts",
-      "geoArea": "east-bay"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -8425,7 +8666,7 @@
       "group": "East Bay Black Professionals Association",
       "source": "meetup",
       "category": "social",
-      "subcategory": "food-drink",
+      "subcategory": "arts",
       "geoArea": "east-bay"
     },
     {
@@ -8452,7 +8693,7 @@
       "source": "meetup",
       "category": "tech",
       "subcategory": "ai-ml",
-      "geoArea": "north-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -8464,7 +8705,7 @@
       "group": "Bay Area Social Scene",
       "source": "meetup",
       "category": "social",
-      "subcategory": "dancing",
+      "subcategory": "happy-hour",
       "geoArea": "east-bay"
     },
     {
@@ -8478,7 +8719,7 @@
       "source": "meetup",
       "category": "night-out",
       "subcategory": "dating",
-      "geoArea": "south-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -8491,7 +8732,7 @@
       "source": "meetup",
       "category": "night-out",
       "subcategory": "dating",
-      "geoArea": "south-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -8505,19 +8746,6 @@
       "category": "social",
       "subcategory": "fitness",
       "geoArea": "east-bay"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "Pack Like a Pro: Travel Tips for Women 2026",
-      "date": "2026-04-16T23:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/travel-women/events/313626507/",
-      "description": "***This is a one-hour online class hosted by [Bold Spirit Travel LLC](https://www.boldspirittravel.com/newsletter).***\n\n*\\*Get a ticket to this class here: [Eventbrite](https://www.eventbrite.com/e/19",
-      "group": "Travel Women: Bold Adventures Near and Far (SF)",
-      "source": "meetup",
-      "category": "tech",
-      "subcategory": "ai-ml",
-      "geoArea": "sf"
     },
     {
       "id": "luma-evt-9dZn1lGm1MXminJ",
@@ -8542,7 +8770,7 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "happy-hour",
-      "geoArea": "east-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -8569,19 +8797,6 @@
       "category": "social",
       "subcategory": "fitness",
       "geoArea": "east-bay"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
-      "title": "E-bike Tour San Francisco to Sausalito",
-      "date": "2026-04-18T17:00:00.000Z",
-      "venue": "Bay City Bike",
-      "url": "https://www.meetup.com/womens-50-group-travel-and-hiking-trips-solo-welcome/events/313676251/",
-      "description": "This iconic bike tour begins in San Francisco’s Fisherman’s Wharf – one of the only true wharfs of its kind left in America! From there, your journey follows the curve of the coast to see sea lions, t",
-      "group": "Wanderlust Women 50+ Active Hike & Bike Trips-Solo welcome!",
-      "source": "meetup",
-      "category": "night-out",
-      "subcategory": "club",
-      "geoArea": "north-bay"
     },
     {
       "id": "luma-evt-DZe0fW6yNiBmjas",
@@ -8636,6 +8851,19 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
+      "title": "April Book Club: Babel at Book Society",
+      "date": "2026-04-18T22:00:00.000Z",
+      "venue": "Bay Area",
+      "url": "https://www.meetup.com/eastbay-womens-booze-book/events/313605876/",
+      "description": "",
+      "group": "Eastbay Ladies Books and Booze lovers!",
+      "source": "meetup",
+      "category": "social",
+      "subcategory": "social-general",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
       "title": "(In Person) Our Monthly Concert",
       "date": "2026-04-19T00:00:00.000Z",
       "venue": "David's house",
@@ -8670,7 +8898,7 @@
       "group": "Walking with a Guide",
       "source": "meetup",
       "category": "social",
-      "subcategory": "food-drink",
+      "subcategory": "happy-hour",
       "geoArea": "east-bay"
     },
     {
@@ -8701,19 +8929,6 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
-      "title": "Treffpunkt East Bay",
-      "date": "2026-04-19T18:00:00.000Z",
-      "venue": "Bay Area",
-      "url": "https://www.meetup.com/german-56/events/313209507/",
-      "description": "",
-      "group": "SF German Stammtisch",
-      "source": "meetup",
-      "category": "social",
-      "subcategory": "social-general",
-      "geoArea": "sf"
-    },
-    {
-      "id": "mu-aHR0cHM6Ly",
       "title": "Discover SF -- Cherry Blossom Festival, Japantown, SF",
       "date": "2026-04-19T19:00:00.000Z",
       "venue": "Post St & Buchanan St",
@@ -8722,7 +8937,7 @@
       "group": "Growth Social Volunteering Crew",
       "source": "meetup",
       "category": "social",
-      "subcategory": "volunteering",
+      "subcategory": "social-general",
       "geoArea": "sf"
     },
     {
@@ -8814,6 +9029,19 @@
     },
     {
       "id": "mu-aHR0cHM6Ly",
+      "title": "🍷 Secret Wine Bar | Blind Wine Society Night",
+      "date": "2026-04-26T01:30:00.000Z",
+      "venue": "San Francisco Wine School",
+      "url": "https://www.meetup.com/palo-alto-blind-wine-society/events/313820749/",
+      "description": "🍷 Secret Wine Bar \\| Blind Wine Society Night\n\nPalo Alto Blind Wine Society — Monthly Tradition\n\nSome of the best wine experiences aren’t advertised.\nYou just have to know where to go.\n\nOnce a month,",
+      "group": "Palo Alto Blind Wine Society",
+      "source": "meetup",
+      "category": "tech",
+      "subcategory": "ai-ml",
+      "geoArea": "peninsula"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
       "title": "Angel Island Hike  (Leave on Tiburon Ferry at 10:00)",
       "date": "2026-04-26T16:27:00.000Z",
       "venue": "Caffē Acri",
@@ -8824,6 +9052,19 @@
       "category": "tech",
       "subcategory": "ai-ml",
       "geoArea": "north-bay"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Indoor Bouldering - Get Your Climb On!",
+      "date": "2026-04-26T18:00:00.000Z",
+      "venue": "Benchmark Climbing",
+      "url": "https://www.meetup.com/have-fun-make-friends-sf/events/313613952/",
+      "description": "Join us for a fun and friendly bouldering session! Whether you've been wanting to try bouldering for a while or are casually working on your next project, come hang out and meet fellow climbers.\n\nDay ",
+      "group": "Have Fun Make Friends SF",
+      "source": "meetup",
+      "category": "tech",
+      "subcategory": "tech-general",
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -8888,7 +9129,7 @@
       "source": "meetup",
       "category": "social",
       "subcategory": "hiking",
-      "geoArea": "south-bay"
+      "geoArea": "sf"
     },
     {
       "id": "mu-aHR0cHM6Ly",
@@ -8955,18 +9196,30 @@
       "geoArea": "sf"
     },
     {
-      "id": "partiful-zDgYJ7zwu4D11lw3cvD9",
-      "title": "(CA) Bay Area Book Festival",
-      "date": "2026-05-30T17:00:00.000Z",
-      "venue": "Martin Luther King Jr. Civic Center Park · Berkeley, CA",
-      "address": "2151 Martin Luther King Jr Way, Berkeley, CA 94704",
-      "url": "https://partiful.com/e/zDgYJ7zwu4D11lw3cvD9",
-      "description": "There doesn’t appear to be tickets for this event.",
-      "source": "partiful",
-      "category": "social",
-      "subcategory": "book-club",
-      "geoArea": "east-bay",
-      "geoVerified": true
+      "id": "mu-aHR0cHM6Ly",
+      "title": "SF Bay to Breakers 12k/15k party-run",
+      "date": "2026-05-17T15:00:00.000Z",
+      "venue": "Main Street/Howard Street",
+      "url": "https://www.meetup.com/bay-area-active-social-20s-30s/events/310983475/",
+      "description": "NOTE: this is more of an informational event posting and less of a typical Meetup event posting since this is a city event with thousands of people, so meeting specific people from our group will be h",
+      "group": "Bay Area Active & Social - 20s, 30s & 40s",
+      "source": "meetup",
+      "category": "night-out",
+      "subcategory": "bars",
+      "geoArea": "sf"
+    },
+    {
+      "id": "mu-aHR0cHM6Ly",
+      "title": "Bay 2 Breakers 2026",
+      "date": "2026-05-17T15:00:00.000Z",
+      "venue": "Main Street/Howard Street",
+      "url": "https://www.meetup.com/south-bay-indoor-outdoor-activities-group/events/313787304/",
+      "description": "**Even if you’ve never run a race, you’ve probably heard of Bay to Breakers!**\nThis iconic San Francisco tradition is a 12K (7.4 mile) run/walk/party with more than 25,000 participants. The course beg",
+      "group": "South Bay Indoor / Outdoor Activities Group (SBIO)",
+      "source": "meetup",
+      "category": "night-out",
+      "subcategory": "club",
+      "geoArea": "sf"
     }
   ]
 }
