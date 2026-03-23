@@ -2,11 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
   <title>Bay Area Events</title>
   <meta name="description" content="Discover the best events in the Bay Area — tech meetups, social events, nightlife. Updated daily from Luma, Meetup, and Partiful."/>
   <meta property="og:title" content="Bay Area Events"/>
   <meta property="og:description" content="Daily updated events from Luma, Meetup & Partiful — SF, East Bay, Peninsula, South Bay"/>
+  <!-- PWA / iOS -->
+  <link rel="manifest" href="manifest.json"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+  <meta name="apple-mobile-web-app-title" content="BA Events"/>
+  <link rel="apple-touch-icon" href="icon-192.png"/>
+  <meta name="theme-color" content="#080812"/>
   <style>
     :root {
       --bg: #080812; --bg2: #0c0c1a; --bg3: #0f0f1f;
@@ -107,20 +114,32 @@
     #scrollTop.show { display: flex; }
 
     @media (max-width: 640px) {
-      /* Header: stack logo + search bar, hide updated timestamp */
+      /* Safe area insets for notch + home bar */
+      body {
+        padding-top: env(safe-area-inset-top);
+        padding-bottom: env(safe-area-inset-bottom);
+      }
+
+      /* Header */
       header {
         flex-direction: column;
         align-items: stretch;
         padding: 0.75rem 1rem;
+        padding-left: max(1rem, env(safe-area-inset-left));
+        padding-right: max(1rem, env(safe-area-inset-right));
         gap: 0.5rem;
         flex-wrap: nowrap;
       }
       .logo { font-size: 1rem; }
       .search-wrap { max-width: 100%; min-width: 0; flex: none; width: 100%; }
-      .search-wrap input { font-size: 1rem; /* prevent iOS zoom */ }
+      .search-wrap input {
+        font-size: 1rem; /* prevent iOS zoom on focus */
+        padding: 0.65rem 2rem 0.65rem 0.9rem;
+        border-radius: 10px;
+      }
       .updated { display: none; }
 
-      /* Filters: each section becomes its own scrollable chip strip */
+      /* Filters: each section = scrollable chip row */
       .filters {
         flex-direction: column;
         padding: 0.3rem 0;
@@ -133,12 +152,13 @@
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
-        padding: 0.25rem 1rem;
+        padding: 0.3rem 1rem;
+        padding-left: max(1rem, env(safe-area-inset-left));
+        padding-right: max(1rem, env(safe-area-inset-right));
         gap: 0.4rem;
         align-items: center;
       }
       .filter-section::-webkit-scrollbar { display: none; }
-      /* Sticky label anchored to left of each scroll row */
       .filter-label {
         position: sticky;
         left: 0;
@@ -148,29 +168,30 @@
         flex-shrink: 0;
         font-size: 0.68rem;
       }
-      /* Date pills sub-row: keep nowrap so it scrolls as one unit */
-      .date-filters {
-        display: flex;
-        flex-wrap: nowrap;
-        gap: 0.4rem;
-      }
+      .date-filters { display: flex; flex-wrap: nowrap; gap: 0.4rem; }
 
-      /* Minimum 44px touch targets for all pills */
+      /* 44px min touch targets (Apple HIG) */
       .pill, .date-pill {
         min-height: 44px;
         display: inline-flex;
         align-items: center;
         flex-shrink: 0;
-        padding: 0.3rem 0.85rem;
+        padding: 0.3rem 0.9rem;
+        font-size: 0.8rem;
+        border-radius: 22px;
       }
 
-      /* Subcategory bar: single scrollable row */
+      /* Active tap feedback */
+      .pill:active, .date-pill:active { opacity: 0.7; transform: scale(0.97); }
+
+      /* Subcategory bar */
       #subcatBar {
         flex-wrap: nowrap;
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
         padding: 0.4rem 1rem;
+        padding-left: max(1rem, env(safe-area-inset-left));
       }
       #subcatBar::-webkit-scrollbar { display: none; }
       #subcatBar button {
@@ -178,25 +199,50 @@
         min-height: 44px;
         display: inline-flex !important;
         align-items: center;
+        font-size: 0.8rem !important;
       }
 
-      /* Stats bar: compact */
+      /* Stats bar */
       .stats-bar {
-        padding: 0.3rem 1rem;
-        font-size: 0.68rem;
+        padding: 0.35rem 1rem;
+        padding-left: max(1rem, env(safe-area-inset-left));
+        font-size: 0.7rem;
         gap: 0.5rem;
       }
 
-      /* Cards: single column with more breathing room */
-      .events-grid {
-        grid-template-columns: 1fr;
-        gap: 0.9rem;
+      /* Cards: full width, bigger tap area */
+      .events-grid { grid-template-columns: 1fr; gap: 0.75rem; }
+      .event-card {
+        padding: 1rem 1.1rem;
+        border-radius: 12px;
+        gap: 0.5rem;
+        /* Tap highlight */
+        -webkit-tap-highlight-color: rgba(124,58,237,0.15);
+      }
+      .event-card:active { transform: scale(0.98); opacity: 0.9; }
+      .card-title { font-size: 0.95rem; }
+      .card-meta { font-size: 0.75rem; gap: 0.25rem 0.6rem; }
+      .card-desc { font-size: 0.82rem; -webkit-line-clamp: 3; }
+
+      /* Date section headers */
+      .date-label h2 { font-size: 0.9rem; }
+
+      /* Main content */
+      main {
+        padding: 0.8rem 1rem 5rem;
+        padding-left: max(1rem, env(safe-area-inset-left));
+        padding-right: max(1rem, env(safe-area-inset-right));
+        padding-bottom: max(5rem, calc(4rem + env(safe-area-inset-bottom)));
       }
 
-      main { padding: 0.8rem 1rem 3rem; }
-
-      /* Scroll-to-top: clear potential bottom nav */
-      #scrollTop { bottom: 2rem; right: 1rem; }
+      /* Scroll-to-top above home bar */
+      #scrollTop {
+        bottom: max(2rem, calc(1rem + env(safe-area-inset-bottom)));
+        right: max(1rem, env(safe-area-inset-right));
+        width: 44px;
+        height: 44px;
+        font-size: 1.1rem;
+      }
     }
   </style>
 </head>
