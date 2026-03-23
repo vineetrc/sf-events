@@ -406,7 +406,7 @@ function card(e, q) {
       ${e.address?`<span style="color:#2d3748">${e.address.slice(0,40)}</span>`:''}
       ${e.group?`<span>👥 ${e.group.slice(0,30)}</span>`:''}
     </div>
-    ${e.description?`<div class="card-desc">${hl(e.description,q)}</div>`:''}
+    ${(e.summary||e.description)?`<div class="card-desc">${hl(e.summary||e.description,q)}</div>`:''}
     <div class="card-footer">
       <div class="src-label"><span class="src-dot" style="background:${color}"></span>${e.source}${e.geoVerified?' <span class="verified">✓</span>':''}</div>
       ${geo}

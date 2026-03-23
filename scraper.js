@@ -9,6 +9,100 @@ const https = require('https');
 const fs = require('fs');
 const { execSync } = require('child_process');
 
+// ── Claude summarizer ────────────────────────────────────────────────────────
+// Calls claude-3-5-haiku to generate 1-2 sentence summaries for event cards.
+// Batches up to 20 events per request; skips events that already have summaries.
+
+function claudePost(body) {
+  return new Promise((resolve) => {
+    const payload = JSON.stringify(body);
+    const req = https.request({
+      hostname: 'api.anthropic.com',
+      path: '/v1/messages',
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': process.env.ANTHROPIC_API_KEY || '',
+        'anthropic-version': '2023-06-01',
+        'Content-Length': Buffer.byteLength(payload),
+      },
+    }, (res) => {
+      let d = '';
+      res.on('data', c => d += c);
+      res.on('end', () => { try { resolve(JSON.parse(d)); } catch (e) { resolve({}); } });
+    });
+    req.on('error', () => resolve({}));
+    req.write(payload);
+    req.end();
+  });
+}
+
+async function summarizeBatch(events) {
+  // Build a numbered list for Claude
+  const items = events.map((e, i) =>
+    `${i + 1}. Title: ${e.title}\nDescription: ${(e.fullDescription || e.description || '').slice(0, 800)}`
+  ).join('\n\n');
+
+  const resp = await claudePost({
+    model: 'claude-3-5-haiku-20241022',
+    max_tokens: 1024,
+    messages: [{
+      role: 'user',
+      content: `You are writing brief summaries for event cards on a Bay Area events discovery app aimed at young professionals.
+
+For each event below, write exactly 1-2 engaging sentences (under 120 chars total) that capture what attendees will actually DO and WHY it's worth going. Be specific, skip filler phrases like "Join us" or "Don't miss". Return ONLY a JSON array of strings, one per event, in the same order. No extra text.
+
+Events:
+${items}`,
+    }],
+  });
+
+  try {
+    const text = resp.content?.[0]?.text || '[]';
+    // Extract JSON array from response
+    const match = text.match(/\[[\s\S]*\]/);
+    const summaries = JSON.parse(match ? match[0] : '[]');
+    return Array.isArray(summaries) ? summaries : [];
+  } catch (e) {
+    return [];
+  }
+}
+
+async function addSummaries(events, existingSummaries = {}) {
+  if (!process.env.ANTHROPIC_API_KEY) {
+    console.log('⚠️  No ANTHROPIC_API_KEY — skipping AI summaries');
+    return events;
+  }
+
+  // Only summarize events that don't already have a cached summary
+  const needsSummary = events.filter(e => !existingSummaries[e.id]);
+  if (!needsSummary.length) {
+    console.log('✨ All events already have summaries (cached)');
+    events.forEach(e => { if (existingSummaries[e.id]) e.summary = existingSummaries[e.id]; });
+    return events;
+  }
+
+  console.log(`🤖 Summarizing ${needsSummary.length} new events with Claude...`);
+  const BATCH = 20;
+  for (let i = 0; i < needsSummary.length; i += BATCH) {
+    const batch = needsSummary.slice(i, i + BATCH);
+    const summaries = await summarizeBatch(batch);
+    batch.forEach((e, j) => {
+      if (summaries[j]) existingSummaries[e.id] = summaries[j];
+    });
+    if (i + BATCH < needsSummary.length) {
+      // Small pause between batches to respect rate limits
+      await new Promise(r => setTimeout(r, 500));
+    }
+  }
+
+  // Apply summaries to all events
+  events.forEach(e => { if (existingSummaries[e.id]) e.summary = existingSummaries[e.id]; });
+  console.log(`  → ${Object.keys(existingSummaries).length} total summaries cached`);
+  return events;
+}
+// ────────────────────────────────────────────────────────────────────────────
+
 const OUTPUT = 'public/events.json';
 
 const BAY_CITIES = ['san francisco','sf','oakland','berkeley','san jose','san mateo','palo alto','mountain view','sunnyvale','santa clara','fremont','hayward','richmond','san rafael','marin','redwood city','menlo park','east bay','south bay','soma','mission','castro','marina','haight','sunset','presidio','emeryville','alameda','daly city','south san francisco','burlingame','walnut creek','pleasanton','livermore','sausalito','mill valley'];
@@ -106,7 +200,8 @@ async function scrapeLuma() {
       if(isBayArea(venueInfo)===false) continue;
       const slug=ev.url||'';
       const cat=classify(ev.name,ev.description||'');
-      events.push({id:'luma-'+ev.api_id,title:ev.name,date:ev.start_at,venue:venueInfo||'San Francisco, CA',url:slug?'https://lu.ma/'+slug:'https://lu.ma/sf',description:(ev.description_short||ev.description||'').slice(0,200),source:'luma',category:cat,subcategory:getSubcategory(ev.name,ev.description||'',cat),geoArea:getGeoArea(venueInfo,'')});
+      const fullDesc = (ev.description||ev.description_short||'').replace(/<[^>]*>/g,'').trim();
+      events.push({id:'luma-'+ev.api_id,title:ev.name,date:ev.start_at,venue:venueInfo||'San Francisco, CA',url:slug?'https://lu.ma/'+slug:'https://lu.ma/sf',description:fullDesc.slice(0,200),fullDescription:fullDesc,source:'luma',category:cat,subcategory:getSubcategory(ev.name,ev.description||'',cat),geoArea:getGeoArea(venueInfo,'')});
     }
     if(!data.has_more||!data.next_cursor) break;
     cursor=data.next_cursor;
@@ -133,7 +228,8 @@ function scrapeMeetup() {
             if(isBayArea(locText)===false) continue;
             seen.add(item.url);
             const cat=classify(item.name,item.description||'');
-            events.push({id:'mu-'+Buffer.from(item.url).toString('base64').slice(0,10),title:item.name,date:item.startDate,venue:item.location?.name||item.location?.address?.addressLocality||'Bay Area',url:item.url,description:(item.description||'').replace(/<[^>]*>/g,'').slice(0,200),group:item.organizer?.name,source:'meetup',category:cat,subcategory:getSubcategory(item.name,item.description||'',cat),geoArea:getGeoArea(item.location?.name||'',item.location?.address?.addressLocality||'')});
+            const fullDesc=(item.description||'').replace(/<[^>]*>/g,'').trim();
+            events.push({id:'mu-'+Buffer.from(item.url).toString('base64').slice(0,10),title:item.name,date:item.startDate,venue:item.location?.name||item.location?.address?.addressLocality||'Bay Area',url:item.url,description:fullDesc.slice(0,200),fullDescription:fullDesc,group:item.organizer?.name,source:'meetup',category:cat,subcategory:getSubcategory(item.name,item.description||'',cat),geoArea:getGeoArea(item.location?.name||'',item.location?.address?.addressLocality||'')});
           }
         }catch(e){}
       }
@@ -146,10 +242,37 @@ function scrapeMeetup() {
 async function run(){
   console.log('🗓️ Scraping Bay Area events...\n');
   const [luma,meetup]=await Promise.all([scrapeLuma(),Promise.resolve(scrapeMeetup())]);
-  const all=[...luma,...meetup].filter(e=>e.title?.length>4&&e.url).sort((a,b)=>{if(a.date&&b.date) return new Date(a.date)-new Date(b.date); return 0;});
-  const result={lastRun:new Date().toISOString(),total:all.length,bySource:{luma:luma.length,meetup:meetup.length,partiful:0},tech:all.filter(e=>e.category==='tech'),social:all.filter(e=>e.category==='social'),nightOut:all.filter(e=>e.category==='night-out'),all};
+  let all=[...luma,...meetup].filter(e=>e.title?.length>4&&e.url).sort((a,b)=>{if(a.date&&b.date) return new Date(a.date)-new Date(b.date); return 0;});
+
+  // Load previously cached summaries to avoid re-summarizing
+  let cachedSummaries = {};
+  try {
+    const existing = JSON.parse(fs.readFileSync(OUTPUT, 'utf8'));
+    if (existing.summaryCache) cachedSummaries = existing.summaryCache;
+    // Also pull summaries stored on individual events (legacy)
+    for (const e of (existing.all || [])) {
+      if (e.id && e.summary && !cachedSummaries[e.id]) cachedSummaries[e.id] = e.summary;
+    }
+  } catch (e) { /* first run */ }
+
+  // Generate AI summaries for new events
+  all = await addSummaries(all, cachedSummaries);
+
+  // Strip fullDescription before saving to keep events.json lean
+  const allClean = all.map(({ fullDescription, ...e }) => e);
+
+  const result={
+    lastRun:new Date().toISOString(),
+    total:allClean.length,
+    bySource:{luma:luma.length,meetup:meetup.length,partiful:0},
+    summaryCache: cachedSummaries,
+    tech:allClean.filter(e=>e.category==='tech'),
+    social:allClean.filter(e=>e.category==='social'),
+    nightOut:allClean.filter(e=>e.category==='night-out'),
+    all:allClean,
+  };
   fs.writeFileSync(OUTPUT,JSON.stringify(result,null,2));
-  console.log(`\n✅ ${all.length} events → ${OUTPUT}`);
+  console.log(`\n✅ ${allClean.length} events → ${OUTPUT}`);
 }
 
 run().catch(console.error);

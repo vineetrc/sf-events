@@ -24,6 +24,7 @@ jobs:
         run: node scraper.js
         env:
           BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Commit and push updated events
         run: |
