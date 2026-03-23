@@ -106,10 +106,97 @@
     #scrollTop { position: fixed; bottom: 1.5rem; right: 1.5rem; background: #7c3aed; color: #fff; border: none; width: 36px; height: 36px; border-radius: 50%; cursor: pointer; display: none; align-items: center; justify-content: center; font-size: 1rem; box-shadow: 0 4px 12px rgba(124,58,237,0.4); z-index: 99; }
     #scrollTop.show { display: flex; }
 
-    @media (max-width: 600px) {
-      header { padding: 0.8rem 1rem; }
-      .filters { padding: 0.5rem 1rem; }
+    @media (max-width: 640px) {
+      /* Header: stack logo + search bar, hide updated timestamp */
+      header {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 0.75rem 1rem;
+        gap: 0.5rem;
+        flex-wrap: nowrap;
+      }
+      .logo { font-size: 1rem; }
+      .search-wrap { max-width: 100%; min-width: 0; flex: none; width: 100%; }
+      .search-wrap input { font-size: 1rem; /* prevent iOS zoom */ }
+      .updated { display: none; }
+
+      /* Filters: each section becomes its own scrollable chip strip */
+      .filters {
+        flex-direction: column;
+        padding: 0.3rem 0;
+        gap: 0;
+      }
+      .filter-divider { display: none; }
+      .filter-section {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        padding: 0.25rem 1rem;
+        gap: 0.4rem;
+        align-items: center;
+      }
+      .filter-section::-webkit-scrollbar { display: none; }
+      /* Sticky label anchored to left of each scroll row */
+      .filter-label {
+        position: sticky;
+        left: 0;
+        background: var(--bg);
+        z-index: 1;
+        padding-right: 0.4rem;
+        flex-shrink: 0;
+        font-size: 0.68rem;
+      }
+      /* Date pills sub-row: keep nowrap so it scrolls as one unit */
+      .date-filters {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 0.4rem;
+      }
+
+      /* Minimum 44px touch targets for all pills */
+      .pill, .date-pill {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        flex-shrink: 0;
+        padding: 0.3rem 0.85rem;
+      }
+
+      /* Subcategory bar: single scrollable row */
+      #subcatBar {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        padding: 0.4rem 1rem;
+      }
+      #subcatBar::-webkit-scrollbar { display: none; }
+      #subcatBar button {
+        flex-shrink: 0;
+        min-height: 44px;
+        display: inline-flex !important;
+        align-items: center;
+      }
+
+      /* Stats bar: compact */
+      .stats-bar {
+        padding: 0.3rem 1rem;
+        font-size: 0.68rem;
+        gap: 0.5rem;
+      }
+
+      /* Cards: single column with more breathing room */
+      .events-grid {
+        grid-template-columns: 1fr;
+        gap: 0.9rem;
+      }
+
       main { padding: 0.8rem 1rem 3rem; }
+
+      /* Scroll-to-top: clear potential bottom nav */
+      #scrollTop { bottom: 2rem; right: 1rem; }
     }
   </style>
 </head>
@@ -127,6 +214,7 @@
 <!-- Category + source + geo filters -->
 <div class="filters">
   <div class="filter-section">
+    <span class="filter-label">Category</span>
     <button class="pill cat-all on" id="tab-all" onclick="setTab('all')">All</button>
     <button class="pill cat-tech" id="tab-tech" onclick="setTab('tech')">🤓 Tech</button>
     <button class="pill cat-social" id="tab-social" onclick="setTab('social')">🎉 Social</button>
